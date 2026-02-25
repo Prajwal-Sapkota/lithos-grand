@@ -60,14 +60,14 @@ const Collection = () => {
                 <button
                   key={city.name}
                   onClick={() => setSelectedIndex(idx)}
-                  className={`group flex items-center justify-between py-3 px-3 border-b border-charcoal/5 text-left transition-all ${selectedIndex === idx ? 'bg-charcoal/5' : ''
+                  className={`group flex items-center justify-between py-3 px-3 border-b border-charcoal/5 text-left transition-all cursor-pointer ${selectedIndex === idx ? 'bg-charcoal/5' : ''
                     }`}
                 >
-                  <div className="flex items-center gap-2">
+                  <div className="flex items-center gap-2 ">
                     <span className={`font-public-sans text-[8px] ${selectedIndex === idx ? 'text-bronze' : 'text-charcoal/30'}`}>
                       0{idx + 1}
                     </span>
-                    <span className={`font-cormorant text-base sm:text-lg transition-all duration-500 ${selectedIndex === idx ? 'text-charcoal font-medium' : 'text-charcoal/30'
+                    <span className={`font-cormorant text-base sm:text-lg transition-all duration-500  ${selectedIndex === idx ? 'text-charcoal font-medium' : 'text-charcoal/30'
                       }`}>
                       {city.name}
                     </span>
@@ -85,9 +85,9 @@ const Collection = () => {
                 <button
                   key={city.name}
                   onClick={() => setSelectedIndex(idx)}
-                  className="group flex items-center justify-between py-6 border-b border-charcoal/5 text-left w-full"
+                  className="group flex items-center justify-between py-6 border-b border-charcoal/5 text-left w-full "
                 >
-                  <div className="flex items-center gap-6">
+                  <div className="flex items-center gap-6 cursor-pointer">
                     <span className={`font-public-sans text-[10px] ${selectedIndex === idx ? 'text-bronze' : 'text-charcoal/30'
                       }`}>
                       0{idx + 1}
@@ -144,7 +144,7 @@ const Collection = () => {
                     </p>
                   </div>
 
-                  <button className="w-full md:w-auto flex items-center justify-center gap-2 md:gap-4 bg-charcoal text-limestone px-4 sm:px-6 md:px-8 py-2 md:py-4 group/btn overflow-hidden relative text-xs md:text-sm">
+                  <button className="w-full md:w-auto flex items-center justify-center gap-2 md:gap-4 bg-charcoal text-limestone px-4 sm:px-6 md:px-8 py-2 md:py-4 group/btn overflow-hidden relative text-xs md:text-sm cursor-pointer">
                     <span className="relative z-10 font-public-sans text-[8px] sm:text-[9px] md:text-[10px] tracking-[0.3em] uppercase">
                       Private Tour
                     </span>

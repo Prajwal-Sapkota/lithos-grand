@@ -75,7 +75,7 @@ const Wellness = () => {
             {treatments.map((item, index) => (
               <div
                 key={index}
-                className={`flex items-center justify-between border-b border-[#2C2C2C]/10 pb-3 md:pb-4 transition-all duration-[1500ms] ${
+                className={`flex items-center justify-between border-b border-[#2C2C2C]/10 pb-3 md:pb-4 transition-all duration-[1500ms] cursor-pointer ${
                   visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-20"
                 }`}
                 style={{ transitionDelay: `${500 + index * 200}ms` }}

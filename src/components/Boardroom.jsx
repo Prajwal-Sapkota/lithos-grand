@@ -65,7 +65,7 @@ const Boardroom = () => {
   const handleMouseLeave = () => setIsAutoPlaying(true);
 
   return (
-    <section ref={ref} className="relative  bg-[#EBE9E4] py-12 md:py-18 overflow-hidden z-50">
+    <section ref={ref} className="relative  bg-[#EBE9E4] py-12 md:py-18 overflow-hidden z-20">
       {/* SOLID BACKGROUND LAYERS */}
       <div className="absolute inset-0 bg-[#EBE9E4] z-0" />
       <div className="absolute inset-0 bg-[#EBE9E4] z-1" />
@@ -132,13 +132,13 @@ const Boardroom = () => {
           <div className="absolute bottom-4 right-4 md:bottom-8 md:right-8 z-30 flex gap-2 md:gap-3">
             <button 
               onClick={prevSlide}
-              className="w-8 h-8 md:w-10 lg:w-12 md:h-10 lg:h-12 border border-[#B5A27A] bg-[#EBE9E4]/90 backdrop-blur-sm flex items-center justify-center hover:bg-[#B5A27A] transition-all duration-300 group/btn"
+              className="w-8 h-8 md:w-10 lg:w-12 md:h-10 lg:h-12 border border-[#B5A27A] bg-[#EBE9E4]/90 backdrop-blur-sm flex items-center justify-center hover:bg-[#B5A27A] transition-all duration-300 group/btn cursor-pointer"
             >
               <FiArrowLeft className="text-[#B5A27A] group-hover/btn:text-[#EBE9E4] transition-colors w-3 h-3 md:w-4 md:h-4" />
             </button>
             <button 
               onClick={nextSlide}
-              className="w-8 h-8 md:w-10 lg:w-12 md:h-10 lg:h-12 border border-[#B5A27A] bg-[#EBE9E4]/90 backdrop-blur-sm flex items-center justify-center hover:bg-[#B5A27A] transition-all duration-300 group/btn"
+              className="w-8 h-8 md:w-10 lg:w-12 md:h-10 lg:h-12 border border-[#B5A27A] bg-[#EBE9E4]/90 backdrop-blur-sm flex items-center justify-center hover:bg-[#B5A27A] transition-all duration-300 group/btn cursor-pointer"
             >
               <FiArrowRight className="text-[#B5A27A] group-hover/btn:text-[#EBE9E4] transition-colors w-3 h-3 md:w-4 md:h-4" />
             </button>

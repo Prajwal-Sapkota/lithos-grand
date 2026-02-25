@@ -97,7 +97,7 @@ const Sanctuary = () => {
                   <h3 className="text-xl font-serif mb-2">
                     {room.title}
                   </h3>
-                  <button className="flex items-center gap-1 text-[9px] tracking-[0.2em] group/btn">
+                  <button className="flex items-center gap-1 text-[9px] tracking-[0.2em] group/btn cursor-pointer">
                     <span>DISCOVER</span>
                     <FiArrowUpRight className="w-3 h-3 group-hover/btn:translate-x-1 group-hover/btn:-translate-y-1 transition-all" />
                   </button>
@@ -137,7 +137,7 @@ const Sanctuary = () => {
                   <h3 className="text-xl md:text-2xl lg:text-3xl font-serif mb-2 md:mb-4">
                     {room.title}
                   </h3>
-                  <button className="flex items-center gap-1 md:gap-2 text-[10px] md:text-xs tracking-[0.2em] group/btn">
+                  <button className="flex items-center gap-1 md:gap-2 text-[10px] md:text-xs tracking-[0.2em] group/btn cursor-pointer">
                     <span>DISCOVER</span>
                     <FiArrowUpRight className="w-3 h-3 md:w-4 md:h-4 group-hover/btn:translate-x-1 group-hover/btn:-translate-y-1 transition-all" />
                   </button>

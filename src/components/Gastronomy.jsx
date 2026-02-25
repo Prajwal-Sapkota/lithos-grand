@@ -108,7 +108,7 @@ const Gastronomy = () => {
                     {/* Hover Button - Hidden on mobile */}
                     <div className="hidden md:flex absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-500 items-center justify-center">
                       <button className="bg-[#EBE9E4] px-4 sm:px-6 py-2 sm:py-3 flex items-center gap-2">
-                        <span className="font-public-sans text-[7px] sm:text-[8px] tracking-[0.2em] text-[#2C2C2C] uppercase">
+                        <span className="font-public-sans text-[7px] sm:text-[8px] tracking-[0.2em] text-[#2C2C2C] uppercase cursor-pointer">
                           Discover
                         </span>
                         <FiArrowUpRight className="text-[#B5A27A] w-3 h-3 sm:w-4 sm:h-4" />

@@ -136,7 +136,7 @@ export default function Navbar() {
 
           {/* CTA Button - Hidden on tablet, show on lg */}
           <button
-            className="hidden lg:block border border-[#8C6A3B] px-5 xl:px-6 py-2 tracking-[0.18em] rounded-full text-[12px] xl:text-[14px] transition-all duration-300 hover:bg-[#8C6A3B] hover:text-white whitespace-nowrap"
+            className="hidden lg:block border border-[#8C6A3B] px-5 xl:px-6 py-2 tracking-[0.18em] rounded-full text-[12px] xl:text-[14px] transition-all duration-300 hover:bg-[#8C6A3B] hover:text-white whitespace-nowrap cursor-pointer"
           >
             RESERVE YOUR STAY
           </button>

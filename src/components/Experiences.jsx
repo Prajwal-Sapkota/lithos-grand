@@ -157,7 +157,7 @@ const Experiences = () => {
                     <p className="font-public-sans text-base text-white/70 leading-relaxed max-w-lg">
                       {exp.desc}
                     </p>
-                    <button className="group flex items-center gap-3 mt-8">
+                    <button className="group flex items-center gap-3 mt-8 cursor-pointer">
                       <span className="font-public-sans text-[18px] tracking-[0.3em] text-white/60 group-hover:text-[#B5A27A] uppercase transition-colors">
                         Discover More
                       </span>

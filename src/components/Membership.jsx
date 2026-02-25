@@ -83,7 +83,7 @@ const Membership = () => {
               A world reserved, always waiting.
             </p>
 
-            <div className="space-y-4 md:space-y-6">
+            <div className="space-y-4 md:space-y-6 ">
               {[
                 "Priority Suite Reservations",
                 "Private Concierge Access",
@@ -95,7 +95,7 @@ const Membership = () => {
                   className={`
                     flex justify-between items-center
                     border-b border-[#2C2C2C]/10 pb-3 md:pb-4
-                    transition-all duration-[1500ms]
+                    transition-all duration-[1500ms] cursor-pointer
                     ${visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-20"}
                   `}
                   style={{ transitionDelay: `${500 + index * 150}ms` }}

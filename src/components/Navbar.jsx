@@ -49,7 +49,7 @@ export default function Navbar() {
   const handleMouseLeave = () => {
     timeoutRef.current = setTimeout(() => {
       setHovered(null);
-    }, 200); // 200ms delay
+    }, 200);
   };
 
   // Cleanup timeout on unmount
@@ -62,12 +62,11 @@ export default function Navbar() {
   return (
     <>
       {/* Navbar */}
-      <header className={`fixed top-0 w-full z-50 flex justify-center pt-6 px-4 transition-all duration-700 ${scrolled ? "pt-3" : "pt-6"
-        }`}>
+      <header className={`fixed top-0 w-full z-50 flex justify-center pt-6 px-4 transition-all duration-700 ${scrolled ? "pt-3" : "pt-6"}`}>
         <nav
           ref={navbarRef}
           className={`
-            w-full max-w-[1400px] flex justify-between items-center px-8 py-4 rounded-full
+            w-full max-w-[1400px] flex justify-between items-center px-4 md:px-6 lg:px-8 py-4 rounded-full
             backdrop-blur-xl bg-[#EBE9E4]/70 border border-[#8C6A3B]/20
             shadow-[0_10px_40px_rgba(0,0,0,0.06)]
             transition-all duration-700
@@ -86,11 +85,11 @@ export default function Navbar() {
             onClick={() => {
               window.scrollTo({ top: 0, behavior: 'smooth' });
             }}
-            className="h-[34px] cursor-pointer transition-transform duration-300 hover:scale-105"
+            className="h-[30px] md:h-[34px] cursor-pointer transition-transform duration-300 hover:scale-105"
           />
 
-          {/* Desktop Menu */}
-          <div className="hidden lg:flex gap-12 relative">
+          {/* Desktop Menu - Hidden on tablet, show on lg */}
+          <div className="hidden lg:flex gap-8 xl:gap-12 relative">
             {navItems.map((nav, index) => (
               <div
                 key={index}
@@ -98,14 +97,13 @@ export default function Navbar() {
                 onMouseLeave={handleMouseLeave}
                 className="relative"
               >
-                <span className="cursor-pointer text-[14px] tracking-[0.18em] text-[#1A1A1A] transition-colors duration-300 hover:text-[#8C6A3B]">
+                <span className="cursor-pointer text-[12px] xl:text-[14px] tracking-[0.18em] text-[#1A1A1A] transition-colors duration-300 hover:text-[#8C6A3B] whitespace-nowrap">
                   {nav.name}
                 </span>
 
                 {/* Bronze Line */}
                 <div
-                  className={`absolute -bottom-2 left-0 right-0 h-[1px] bg-[#8C6A3B] transition-all duration-300 ${hovered === index ? "opacity-100 scale-x-100" : "opacity-0 scale-x-0"
-                    }`}
+                  className={`absolute -bottom-2 left-0 right-0 h-[1px] bg-[#8C6A3B] transition-all duration-300 ${hovered === index ? "opacity-100 scale-x-100" : "opacity-0 scale-x-0"}`}
                 />
 
                 {/* Mega Menu */}
@@ -114,7 +112,7 @@ export default function Navbar() {
                     ref={dropdownRef}
                     onMouseEnter={() => handleMouseEnter(index)}
                     onMouseLeave={handleMouseLeave}
-                    className="absolute top-10 left-1/2 -translate-x-1/2 bg-white shadow-xl p-8 grid grid-cols-2 gap-x-12 gap-y-4 min-w-[400px] rounded-sm"
+                    className="absolute top-10 left-1/2 -translate-x-1/2 bg-white shadow-xl p-6 xl:p-8 grid grid-cols-2 gap-x-8 xl:gap-x-12 gap-y-3 xl:gap-y-4 min-w-[350px] xl:min-w-[400px] rounded-sm"
                     style={{
                       animation: "fadeInUp 0.3s ease-out forwards",
                     }}
@@ -122,7 +120,7 @@ export default function Navbar() {
                     {nav.items.map((city, i) => (
                       <div
                         key={i}
-                        className="text-[14px] tracking-[0.15em] text-[#2C2C2C]/70 hover:text-[#8C6A3B] cursor-pointer whitespace-nowrap transition-colors duration-300"
+                        className="text-[12px] xl:text-[14px] tracking-[0.15em] text-[#2C2C2C]/70 hover:text-[#8C6A3B] cursor-pointer whitespace-nowrap transition-colors duration-300"
                       >
                         {city}
                       </div>
@@ -136,14 +134,14 @@ export default function Navbar() {
             ))}
           </div>
 
-          {/* CTA Button */}
+          {/* CTA Button - Hidden on tablet, show on lg */}
           <button
-            className="hidden lg:block border border-[#8C6A3B] px-6 py-2 tracking-[0.18em] rounded-full text-[14px] transition-all duration-300 hover:bg-[#8C6A3B] hover:text-white"
+            className="hidden lg:block border border-[#8C6A3B] px-5 xl:px-6 py-2 tracking-[0.18em] rounded-full text-[12px] xl:text-[14px] transition-all duration-300 hover:bg-[#8C6A3B] hover:text-white whitespace-nowrap"
           >
             RESERVE YOUR STAY
           </button>
 
-          {/* Mobile Icon */}
+          {/* Mobile/Tablet Menu Icon - Show on lg and below */}
           <FiMenu
             onClick={() => setMobileOpen(true)}
             className="lg:hidden text-2xl cursor-pointer transition-transform duration-300 hover:scale-110"
@@ -153,8 +151,7 @@ export default function Navbar() {
 
       {/* Mobile Menu */}
       <div
-        className={`fixed inset-0 bg-[#EBE9E4] flex flex-col justify-center items-center z-50 transition-all duration-500 ${mobileOpen ? "opacity-100 visible" : "opacity-0 invisible"
-          }`}
+        className={`fixed inset-0 bg-[#EBE9E4] flex flex-col justify-center items-center z-50 transition-all duration-500 ${mobileOpen ? "opacity-100 visible" : "opacity-0 invisible"}`}
         style={{
           transition: "opacity 0.5s ease, visibility 0.5s ease"
         }}
@@ -167,7 +164,7 @@ export default function Navbar() {
         {navItems.map((nav, i) => (
           <div
             key={i}
-            className="text-3xl mb-8 tracking-[0.2em] cursor-pointer transition-all duration-300 hover:text-[#8C6A3B] hover:translate-x-2"
+            className="text-2xl md:text-3xl mb-6 md:mb-8 tracking-[0.2em] cursor-pointer transition-all duration-300 hover:text-[#8C6A3B] hover:translate-x-2"
             style={{
               transition: "color 0.3s ease, transform 0.3s ease",
               animation: mobileOpen ? `fadeInUp 0.5s ease-out ${i * 0.1}s forwards` : "none",
@@ -180,7 +177,7 @@ export default function Navbar() {
         ))}
 
         <button
-          className="border border-[#8C6A3B] px-8 py-3 tracking-[0.2em] rounded-full transition-all duration-300 hover:bg-[#8C6A3B] hover:text-white"
+          className="border border-[#8C6A3B] px-6 md:px-8 py-3 tracking-[0.2em] rounded-full transition-all duration-300 hover:bg-[#8C6A3B] hover:text-white text-sm md:text-base"
           style={{
             animation: mobileOpen ? "fadeInUp 0.5s ease-out 0.5s forwards" : "none",
             opacity: 0,

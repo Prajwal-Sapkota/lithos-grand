@@ -41,14 +41,12 @@ export default function HotelIntro() {
       {/* BRAND */}
       <h1
         ref={brandRef}
-        className="absolute top-10 md:top-1 lg:top-4 left-1/2 transform -translate-x-1/2 font-serif text-[clamp(40px,14vw,180px)] whitespace-nowrap text-black opacity-0 scale-90 pointer-events-none transition-all duration-[1600ms] ease-out"
+        className="absolute top-8 md:top-1 lg:-top-8 left-1/2 transform -translate-x-1/2 font-serif text-[clamp(40px,14vw,180px)] whitespace-nowrap text-black opacity-0 scale-90 pointer-events-none transition-all duration-[1600ms] ease-out"
         style={{ transform: "translate(-50%, -100%) scale(0.9)" }} // initial above screen
       >
         LITHOS GRAND
       </h1>
 
-      {/* LIGHT EFFECT */}
-      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[600px] md:w-[900px] lg:w-[1200px] h-[300px] md:h-[400px] lg:h-[600px] bg-[radial-gradient(circle,rgba(255,255,255,0.9),transparent)] blur-[80px]" />
 
       {/* CONTENT */}
       <div className="relative max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-12 md:gap-16 lg:gap-20 items-center">
@@ -59,7 +57,7 @@ export default function HotelIntro() {
         >
           <img
             src="/images/intro1.avif"
-            className="w-full h-[320px] sm:h-[400px] md:h-[450px] lg:h-[520px] object-cover shadow-[0_30px_80px_rgba(0,0,0,0.18)]"
+            className="w-full h-[320px] sm:h-[400px] md:h-[450px] lg:h-[520px] object-cover shadow-md"
           />
         </div>
 
@@ -68,14 +66,17 @@ export default function HotelIntro() {
           ref={contentRef}
           className="opacity-0 translate-y-20 transition-all duration-[1400ms] ease-out delay-200 order-2 text-center lg:text-left"
         >
-          <h2 className="text-[clamp(34px,8vw,88px)] leading-tight font-serif text-neutral-900 max-w-lg mx-auto lg:mx-0">
-            NOT A HOTEL
-            <span className="italic block text-[#B5A27A]">AN INSTITUTION</span>
+          <h2 className="text-7xl md:text-8xl leading-[1.05] font-serif text-neutral-900">
+            MORE THAN
+            <span className="italic block text-[#B5A27A] mt-2">
+              A HOTEL
+            </span>
           </h2>
 
-          <p className="mt-6 md:mt-8 lg:mt-10 text-neutral-600 leading-relaxed max-w-md mx-auto lg:mx-0 text-sm md:text-base">
+          <p className="mt-8 text-neutral-600 leading-relaxed text-base text-justify">
             LITHOS GRAND exists beyond hospitality. It is an architectural landmark created for individuals who define industries, influence economies, and shape the future.
           </p>
+
 
           {/* CTA */}
           <div className="py-12 flex items-center justify-center lg:justify-start gap-6 group cursor-pointer">

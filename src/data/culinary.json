@@ -1,0 +1,550 @@
+{
+    "global": {
+        "title": "CULINARY COLLECTION",
+        "subtitle": "Three signature restaurants. One philosophy. Crafted for the global executive.",
+        "image": "/images/culinary.jpg"
+    },
+    "philosophy": {
+        "title": "The Art of Fire & Stone",
+        "description": "At LITHOS GRAND, our culinary philosophy is rooted in the same principles as our architecture: raw materials, precision, and timeless elegance. Each restaurant is designed as a sanctuary for the senses.",
+        "quote": "We don't follow trends. We create experiences.",
+        "chef": "The LITHOS Culinary Council",
+        "image": "/images/culinary1.jpg"
+    },
+    "restaurants": [
+        {
+            "id": "the-forge",
+            "slug": "the-forge",
+            "name": "THE FORGE",
+            "globalConcept": "Fire · Stone · Smoke",
+            "description": "A primal dining experience where ingredients meet open flame. Aged meats, charcoal vegetables, and techniques honed over centuries.",
+            "globalImage": "/images/forge.jpg",
+            "pageUrl": "/culinary/the-forge",
+            "chef": {
+                "name": "Chef Elena Marchetti",
+                "title": "Executive Chef, The Forge",
+                "bio": "Three Michelin stars. Trained at Osteria Francescana and Noma. Master of fire and fermentation.",
+                "image": "/images/culinary/chef-elena.jpg"
+            },
+            "locations": [
+                {
+                    "city": "Paris",
+                    "address": "12 Avenue des Champs-Élysées",
+                    "phone": "+33 1 42 25 00 00",
+                    "image": "/images/culinary/forge-paris.jpg",
+                    "menuUrl": "/culinary/the-forge/paris"
+                },
+                {
+                    "city": "London",
+                    "address": "Mayfair, London",
+                    "phone": "+44 20 1234 5678",
+                    "image": "/images/culinary/forge-london.jpg",
+                    "menuUrl": "/culinary/the-forge/london"
+                },
+                {
+                    "city": "Tokyo",
+                    "address": "Shinjuku, Tokyo",
+                    "phone": "+81 3 1234 5678",
+                    "image": "/images/culinary/forge-tokyo.jpg",
+                    "menuUrl": "/culinary/the-forge/tokyo"
+                },
+                {
+                    "city": "Dubai",
+                    "address": "Downtown Dubai",
+                    "phone": "+971 4 123 4567",
+                    "image": "/images/culinary/forge-dubai.jpg",
+                    "menuUrl": "/culinary/the-forge/dubai"
+                },
+                {
+                    "city": "New York",
+                    "address": "432 Park Avenue",
+                    "phone": "+1 212 123 4567",
+                    "image": "/images/culinary/forge-nyc.jpg",
+                    "menuUrl": "/culinary/the-forge/newyork"
+                }
+            ],
+            "signatureDishes": [
+                {
+                    "id": "forge-lamb",
+                    "name": "Lamb • Desert Embers",
+                    "description": "Whole lamb shoulder, roasted for 14 hours in desert sand embers, served with smoked yogurt and za'atar.",
+                    "price": "€165",
+                    "image": "/images/lamb.webp",
+                    "tags": [
+                        "Signature",
+                        "Lamb",
+                        "Slow-cooked"
+                    ],
+                    "availableIn": [
+                        "Dubai",
+                        "Paris",
+                        "London",
+                        "New York"
+                    ]
+                },
+                {
+                    "id": "forge-oyster",
+                    "name": "Oyster • Smoke & Brine",
+                    "description": "Fresh Gillardeau oysters, smoked butter emulsion, sea herbs, finished with applewood smoke tableside.",
+                    "price": "€95",
+                    "image": "/images/oyster.jpg",
+                    "tags": [
+                        "Seafood",
+                        "Starter",
+                        "Smoked"
+                    ],
+                    "availableIn": [
+                        "Paris",
+                        "London",
+                        "Tokyo",
+                        "New York"
+                    ]
+                },
+                {
+                    "id": "forge-octopus",
+                    "name": "Octopus • Charcoal",
+                    "description": "Spanish octopus, slow-cooked then charred over binchotan, served with smoked paprika oil and black garlic.",
+                    "price": "€115",
+                    "image": "/images/octopus.webp",
+                    "tags": [
+                        "Seafood",
+                        "Signature",
+                        "Charcoal"
+                    ],
+                    "availableIn": [
+                        "Tokyo",
+                        "New York",
+                        "London",
+                        "Paris"
+                    ]
+                },
+                {
+                    "id": "forge-pork",
+                    "name": "Pork • Ember & Honey",
+                    "description": "Iberico pork secreto, glazed with wild honey and charred over embers, served with smoked apple compote.",
+                    "price": "€125",
+                    "image": "/images/pork.jpg",
+                    "tags": [
+                        "Pork",
+                        "Signature",
+                        "Fire-cooked"
+                    ],
+                    "availableIn": [
+                        "Paris",
+                        "London",
+                        "Dubai",
+                        "New York"
+                    ]
+                },
+                {
+                    "id": "forge-duck",
+                    "name": "Duck • Smoke & Cherry",
+                    "description": "Whole roasted duck breast, smoked over cherry wood, served with charred cherry glaze and wild rice.",
+                    "price": "€135",
+                    "image": "/images/duck.jpg",
+                    "tags": [
+                        "Poultry",
+                        "Signature",
+                        "Smoked"
+                    ],
+                    "availableIn": [
+                        "Paris",
+                        "London",
+                        "Tokyo",
+                        "New York"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "the-vault",
+            "slug": "the-vault",
+            "name": "THE VAULT",
+            "globalConcept": "Wine · Cheese · Preservation",
+            "description": "Carved directly into the hotel's limestone foundation. A sanctuary for wine and cheese with private dining surrounded by ancient stone.",
+            "globalImage": "/images/vault.jpg",
+            "pageUrl": "/culinary/the-vault",
+            "chef": {
+                "name": "Chef Jean-Luc Moreau",
+                "title": "Chef de Cuisine, The Vault",
+                "bio": "Michelin star. Formerly at Le Bernardin and L'Ambroisie. Master of seafood and classical technique.",
+                "image": "/images/culinary/chef-jean.jpg"
+            },
+            "locations": [
+                {
+                    "city": "Paris",
+                    "address": "12 Avenue des Champs-Élysées",
+                    "phone": "+33 1 42 25 00 00",
+                    "image": "/images/culinary/vault-paris.jpg",
+                    "menuUrl": "/culinary/the-vault/paris"
+                },
+                {
+                    "city": "London",
+                    "address": "Mayfair, London",
+                    "phone": "+44 20 1234 5678",
+                    "image": "/images/culinary/vault-london.jpg",
+                    "menuUrl": "/culinary/the-vault/london"
+                },
+                {
+                    "city": "Geneva",
+                    "address": "Rue du Rhône",
+                    "phone": "+41 22 123 45 67",
+                    "image": "/images/culinary/vault-geneva.jpg",
+                    "menuUrl": "/culinary/the-vault/geneva"
+                },
+                {
+                    "city": "Zurich",
+                    "address": "Bahnhofstrasse",
+                    "phone": "+41 44 123 45 67",
+                    "image": "/images/culinary/vault-zurich.jpg",
+                    "menuUrl": "/culinary/the-vault/zurich"
+                },
+                {
+                    "city": "New York",
+                    "address": "432 Park Avenue",
+                    "phone": "+1 212 123 4567",
+                    "image": "/images/culinary/vault-nyc.jpg",
+                    "menuUrl": "/culinary/the-vault/newyork"
+                }
+            ],
+            "signatureDishes": [
+                {
+                    "id": "vault-caviar",
+                    "name": "Caviar • Limestone",
+                    "description": "Oscietra caviar, served on a chilled limestone plate with blinis, crème fraîche, and chives.",
+                    "price": "€245",
+                    "image": "/images/caviar.jpg",
+                    "tags": [
+                        "Signature",
+                        "Caviar",
+                        "Luxury"
+                    ],
+                    "availableIn": [
+                        "Paris",
+                        "London",
+                        "Geneva",
+                        "Zurich",
+                        "New York"
+                    ]
+                },
+                {
+                    "id": "vault-cheese",
+                    "name": "Fromage Cart • Tableside",
+                    "description": "A curated selection of 12 artisanal cheeses, aged in our limestone cave, served tableside with accompaniments.",
+                    "price": "€85",
+                    "image": "/images/cheese.jpg",
+                    "tags": [
+                        "Cheese",
+                        "Tableside",
+                        "Signature"
+                    ],
+                    "availableIn": [
+                        "All Locations"
+                    ]
+                },
+                {
+                    "id": "vault-truffle-risotto",
+                    "name": "Risotto • Black Truffle",
+                    "description": "Carnaroli risotto, finished with shaved black winter truffle and aged parmesan, prepared tableside.",
+                    "price": "€125",
+                    "image": "/images/risotto.webp",
+                    "tags": [
+                        "Truffle",
+                        "Risotto",
+                        "Tableside"
+                    ],
+                    "availableIn": [
+                        "Paris",
+                        "London",
+                        "Geneva",
+                        "Zurich",
+                        "New York"
+                    ]
+                },
+                {
+                    "id": "vault-lobster",
+                    "name": "Lobster • Thermidor",
+                    "description": "Whole Atlantic lobster, prepared tableside in a classic thermidor sauce with aged gruyère.",
+                    "price": "€185",
+                    "image": "/images/lobster.jpg",
+                    "tags": [
+                        "Seafood",
+                        "Lobster",
+                        "Tableside"
+                    ],
+                    "availableIn": [
+                        "Paris",
+                        "London",
+                        "New York"
+                    ]
+                },
+                {
+                    "id": "vault-scallops",
+                    "name": "Scallops • Sea & Stone",
+                    "description": "Hand-dived scallops, seared on a hot limestone stone, served with brown butter and caper emulsion.",
+                    "price": "€95",
+                    "image": "/images/scallop.jpg",
+                    "tags": [
+                        "Seafood",
+                        "Starter",
+                        "Tableside"
+                    ],
+                    "availableIn": [
+                        "Paris",
+                        "London",
+                        "Geneva",
+                        "New York"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "the-sanctum",
+            "slug": "the-sanctum",
+            "name": "THE SANCTUM",
+            "globalConcept": "Omakase · Meditation · Taste",
+            "description": "A 12-seat counter where sound is absorbed by limestone walls. A tasting menu served in absolute quiet. Only the food speaks.",
+            "globalImage": "/images/sanctum.jpg",
+            "pageUrl": "/culinary/the-sanctum",
+            "chef": {
+                "name": "Chef Takahiro Yamamoto",
+                "title": "Sushi Master, The Sanctum",
+                "bio": "Trained for 20 years in Tokyo's most exclusive sushi counters. Brings the philosophy of omakase to LITHOS.",
+                "image": "/images/culinary/chef-takahiro.jpg"
+            },
+            "locations": [
+                {
+                    "city": "Tokyo",
+                    "address": "Shinjuku, Tokyo",
+                    "phone": "+81 3 1234 5678",
+                    "image": "/images/culinary/sanctum-tokyo.jpg",
+                    "menuUrl": "/culinary/the-sanctum/tokyo"
+                },
+                {
+                    "city": "Paris",
+                    "address": "12 Avenue des Champs-Élysées",
+                    "phone": "+33 1 42 25 00 00",
+                    "image": "/images/culinary/sanctum-paris.jpg",
+                    "menuUrl": "/culinary/the-sanctum/paris"
+                },
+                {
+                    "city": "New York",
+                    "address": "432 Park Avenue",
+                    "phone": "+1 212 123 4567",
+                    "image": "/images/culinary/sanctum-nyc.jpg",
+                    "menuUrl": "/culinary/the-sanctum/newyork"
+                },
+                {
+                    "city": "Singapore",
+                    "address": "Marina Bay",
+                    "phone": "+65 1234 5678",
+                    "image": "/images/culinary/sanctum-singapore.jpg",
+                    "menuUrl": "/culinary/the-sanctum/singapore"
+                }
+            ],
+            "signatureDishes": [
+                {
+                    "id": "sanctum-omakase",
+                    "name": "Omakase • 20 Courses",
+                    "description": "A 20-course journey through the finest seasonal ingredients, served in complete silence. Only the food speaks.",
+                    "price": "€350",
+                    "image": "/images/omakase.webp",
+                    "tags": [
+                        "Signature",
+                        "Omakase",
+                        "Tasting Menu"
+                    ],
+                    "availableIn": [
+                        "Tokyo",
+                        "Paris",
+                        "New York",
+                        "Singapore"
+                    ]
+                },
+                {
+                    "id": "sanctum-toro",
+                    "name": "Otoro • Aged Soy",
+                    "description": "Fatty tuna belly, aged for 10 days in house-made soy, served on warm sushi rice.",
+                    "price": "€65",
+                    "image": "/images/toro.jpg",
+                    "tags": [
+                        "Sushi",
+                        "Tuna",
+                        "Signature"
+                    ],
+                    "availableIn": [
+                        "Tokyo",
+                        "Singapore",
+                        "New York"
+                    ]
+                },
+                {
+                    "id": "sanctum-uni",
+                    "name": "Hokkaido Uni • Sea Salt",
+                    "description": "Fresh sea urchin from Hokkaido, served on a bed of warm rice with a touch of yuzu and sea salt.",
+                    "price": "€75",
+                    "image": "/images/uni.jpg",
+                    "tags": [
+                        "Uni",
+                        "Seafood",
+                        "Signature"
+                    ],
+                    "availableIn": [
+                        "Tokyo",
+                        "Singapore",
+                        "New York"
+                    ]
+                },
+                {
+                    "id": "sanctum-kaiseki",
+                    "name": "Kaiseki • Seasonal",
+                    "description": "A multi-course traditional Japanese dinner featuring the season's finest ingredients, prepared with precision.",
+                    "price": "€280",
+                    "image": "/images/kaiseki.webp",
+                    "tags": [
+                        "Kaiseki",
+                        "Tasting Menu",
+                        "Seasonal"
+                    ],
+                    "availableIn": [
+                        "Tokyo",
+                        "Paris",
+                        "New York"
+                    ]
+                },
+                {
+                    "id": "sanctum-kingfish",
+                    "name": "Kingfish • Yuzu & Soy",
+                    "description": "Hiramasa kingfish, cured in yuzu and aged soy, served with pickled daikon and shiso.",
+                    "price": "€55",
+                    "image": "/images/kingfish.jpg",
+                    "tags": [
+                        "Sushi",
+                        "Fish",
+                        "Starter"
+                    ],
+                    "availableIn": [
+                        "Tokyo",
+                        "Singapore",
+                        "Paris",
+                        "New York"
+                    ]
+                }
+            ]
+        }
+    ],
+    "globalWineCellar": {
+        "title": "The Limestone Cellar",
+        "description": "Over 12,000 bottles across our global collection. Each restaurant features its own cellar with rare vintages and private labels.",
+        "totalBottles": "12,000+",
+        "totalLabels": "3,800+",
+        "oldestVintage": "1898",
+        "image": "/images/limestone2.jpg",
+        "byLocation": [
+            {
+                "city": "Paris",
+                "specialty": "Burgundy & Bordeaux",
+                "bottles": "3,200",
+                "oldest": "1928",
+                "image": "/images/pariswine.jpg",
+                "highlights": [
+                    "Romanée-Conti",
+                    "Château Margaux",
+                    "Petrus"
+                ]
+            },
+            {
+                "city": "London",
+                "specialty": "Champagne & Old World",
+                "bottles": "2,800",
+                "oldest": "1945",
+                "image": "/images/londonwine.jpg",
+                "highlights": [
+                    "Krug",
+                    "Dom Pérignon",
+                    "Bollinger"
+                ]
+            },
+            {
+                "city": "Tokyo",
+                "specialty": "Sake & French",
+                "bottles": "2,100",
+                "oldest": "1961",
+                "image": "/images/tokyowine.jpg",
+                "highlights": [
+                    "Dassai",
+                    "Juyondai",
+                    "Château d'Yquem"
+                ]
+            },
+            {
+                "city": "Dubai",
+                "specialty": "International Collection",
+                "bottles": "2,400",
+                "oldest": "1975",
+                "image": "/images/dubaiwine.jpg",
+                "highlights": [
+                    "Opus One",
+                    "Penfolds Grange",
+                    "Vega Sicilia"
+                ]
+            },
+            {
+                "city": "New York",
+                "specialty": "California & Bordeaux",
+                "bottles": "2,500",
+                "oldest": "1959",
+                "image": "/images/newyorkwine.jpg",
+                "highlights": [
+                    "Screaming Eagle",
+                    "Harlan Estate",
+                    "Château Latour"
+                ]
+            },
+            {
+                "city": "Singapore",
+                "specialty": "Burgundy & Bordeaux",
+                "bottles": "2,000",
+                "oldest": "1970",
+                "image": "/images/singaporewine.jpg",
+                "highlights": [
+                    "Domaine de la Romanée-Conti",
+                    "Château Mouton Rothschild",
+                    "Dom Pérignon"
+                ]
+            },
+            {
+                "city": "Zurich",
+                "specialty": "Swiss & German",
+                "bottles": "1,800",
+                "oldest": "1955",
+                "image": "/images/zurichwine.webp",
+                "highlights": [
+                    "Egon Müller",
+                    "Weingut Keller",
+                    "Château d'Yquem"
+                ]
+            },
+            {
+                "city": "Geneva",
+                "specialty": "International Diplomacy",
+                "bottles": "1,900",
+                "oldest": "1948",
+                "image": "/images/genevawine.jpg",
+                "highlights": [
+                    "Petrus",
+                    "Krug Clos d'Ambonnay",
+                    "Sassicaia"
+                ]
+            }
+        ],
+        "highlights": [
+            "Romanée-Conti 1978",
+            "Petrus 1982",
+            "Sassicaia 1985",
+            "Dom Pérignon P3 1971",
+            "Krug Clos d'Ambonnay",
+            "Château Margaux 1990"
+        ]
+    }
+}

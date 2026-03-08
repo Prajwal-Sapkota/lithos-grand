@@ -12,7 +12,7 @@ import Wellness from "../components/Wellness";
 
 const Home = () => {
     return(
-        <div className="overflow-x-hidden">
+        <div className="relative overflow-x-hidden">
             <Navbar/>
             <Hero/>
             <HotelIntro/>

@@ -1,0 +1,104 @@
+{
+    "hero": {
+        "title": "WELLNESS JOURNEY",
+        "subtitle": "Ancient healing rituals meet modern science. A sanctuary carved from limestone and wrapped in silence.",
+        "image": "/images/wellness.jpg"
+    },
+    "intro": {
+        "title": "Where Stone Heals",
+        "description": "Carved directly into the limestone bedrock, our spa is a sanctuary where ancient materials and modern techniques converge. Here, silence is not empty—it is full of healing.",
+        "quote": "The body knows how to heal. We simply create the conditions.",
+        "image": "/images/wellnesssanctuary.jpg",
+        "stats": {
+            "treatments": "18",
+            "therapists": "12",
+            "years": "25",
+            "area": "2,500"
+        }
+    },
+    "treatments": [
+        {
+            "id": "limestone-massage",
+            "name": "Limestone Hot Stone Massage",
+            "duration": "90 min",
+            "price": "€245",
+            "description": "Heated limestone basalt stones placed along meridians. Deep tissue release with warm stone therapy.",
+            "image": "/images/treatment1.jpg",
+            "category": "Massage"
+        },
+        {
+            "id": "cryotherapy",
+            "name": "Cryogenic Chamber",
+            "duration": "3 min",
+            "price": "€95",
+            "description": "-110°C. Three minutes. Complete cellular renewal. Used by elite athletes.",
+            "image": "/images/treatment2.webp",
+            "category": "Recovery"
+        },
+        {
+            "id": "sound-healing",
+            "name": "Sound Bath & Meditation",
+            "duration": "60 min",
+            "price": "€145",
+            "description": "Crystal singing bowls and silent meditation in our limestone sound chamber.",
+            "image": "/images/treatment3.jpg",
+            "category": "Meditation"
+        },
+        {
+            "id": "facial",
+            "name": "Limestone Micro-Polish Facial",
+            "duration": "75 min",
+            "price": "€195",
+            "description": "Crushed limestone exfoliation with nutrient-rich serums.",
+            "image": "/images/treatment4.jpeg",
+            "category": "Facials"
+        },
+        {
+            "id": "floatation",
+            "name": "Floatation Therapy",
+            "duration": "90 min",
+            "price": "€165",
+            "description": "Zero-gravity float in mineral-rich water. Complete sensory deprivation.",
+            "image": "/images/treatment5.jpg",
+            "category": "Hydrotherapy"
+        },
+        {
+            "id": "ayurvedic",
+            "name": "Ayurvedic Abhyanga",
+            "duration": "90 min",
+            "price": "€225",
+            "description": "Warm oil massage with two therapists in synchronized motion.",
+            "image": "/images/treatment6.jpg",
+            "category": "Massage"
+        }
+    ],
+    "facilities": [
+        {
+            "name": "Limestone Steam Room",
+            "description": "Aromatic steam infused with eucalyptus, rising from heated limestone.",
+            "image": "/images/facility1.jpg"
+        },
+        {
+            "name": "Cryo Chamber",
+            "description": "-110°C cold therapy for recovery and rejuvenation.",
+            "image": "/images/facility2.webp"
+        },
+       
+        {
+            "name": "Meditation Grotto",
+            "description": "Carved from limestone, designed for complete silence.",
+            "image": "/images/facility4.jpg"
+        }
+    ],
+    "philosophy": {
+        "title": "The Lithos Way",
+        "description": "3,000 hours of training before touching a guest. Each treatment customized to your body's needs that day.",
+        "image": "/images/philosophy.jpg",
+        "principles": [
+            "Ancient Materials: Limestone, basalt, and natural fibers",
+            "Modern Science: Cryotherapy and cellular analysis",
+            "Complete Silence: Soundproofed rooms with 65 STC rating",
+            "Personalized Care: One guest, one therapist"
+        ]
+    }
+}

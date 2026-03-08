@@ -1,0 +1,240 @@
+{
+  "hero": {
+    "title": "THE BOARDROOM",
+    "subtitle": "Where decisions shape the future. Fortified meeting spaces engineered for absolute discretion.",
+    "image": "/images/boardroom.jpg"
+  },
+  "intro": {
+    "title": "The Chamber of Influence",
+    "description": "Designed for the world's most sensitive dialogues. Our boardrooms are acoustically isolated fortresses equipped with state-of-the-art technology and serviced by a dedicated executive concierge.",
+    "stats": {
+      "spaces": "6",
+      "capacity": "50",
+      "security": "Tier 4",
+      "connectivity": "10Gbps"
+    }
+  },
+  "spaces": [
+    {
+      "id": "silent-boardroom",
+      "slug": "silent-boardroom",
+      "name": "The Silent Boardroom",
+      "capacity": "14",
+      "size": "85",
+      "sizeUnit": "m²",
+      "floor": "12",
+      "view": "Skyline",
+      "description": "Perfect for executive meetings and strategic discussions. Acoustically isolated with negative pressure for absolute privacy.",
+      "longDescription": "The Silent Boardroom is engineered for confidentiality. With STC 65 acoustic rating and negative air pressure, conversations remain completely private. The room features a 4K video conferencing system, encrypted communications, and a private anteroom for assistants.",
+      "image": "/images/silent1.jpg",
+      "gallery": [
+        "/images/boardroom/silent-1.jpg",
+        "/images/boardroom/silent-2.jpg"
+      ],
+      "features": [
+        "STC 65 acoustic isolation",
+        "4K video conferencing",
+        "Encrypted communications",
+        "Private assistant anteroom",
+        "Temperature-controlled wine display",
+        "Italian leather boardroom chairs"
+      ],
+      "tech": [
+        "85\" 8K display",
+        "Ceiling array microphones",
+        "AI-powered noise cancellation",
+        "Secure document shredder"
+      ]
+    },
+    {
+      "id": "monolith-chamber",
+      "slug": "monolith-chamber",
+      "name": "The Monolith Chamber",
+      "capacity": "24",
+      "size": "120",
+      "sizeUnit": "m²",
+      "floor": "24",
+      "view": "Panoramic",
+      "description": "Mid-sized boardroom with panoramic views. Features a private lounge and translation booth for international delegations.",
+      "longDescription": "The Monolith Chamber balances productivity with comfort. The main boardroom seats 24 around a custom limestone table, while the adjacent lounge provides space for informal discussions. The integrated translation booth supports up to 6 languages for international meetings.",
+      "image": "/images/monolith1.avif",
+      "gallery": [
+        "/images/boardroom/monolith-1.jpg",
+        "/images/boardroom/monolith-2.jpg"
+      ],
+      "features": [
+        "Custom limestone conference table",
+        "Private lounge with bar",
+        "Translation booth (6 languages)",
+        "Floor-to-ceiling windows",
+        "Motorized blackout shades",
+        "Dedicated IT support room"
+      ],
+      "tech": [
+        "Dual 98\" displays",
+        "Simultaneous interpretation system",
+        "Secure VoIP conference bridge",
+        "Ambient intelligence climate control"
+      ]
+    },
+    {
+      "id": "presidential-hall",
+      "slug": "presidential-hall",
+      "name": "The Presidential Hall",
+      "capacity": "50",
+      "size": "200",
+      "sizeUnit": "m²",
+      "floor": "36",
+      "view": "360°",
+      "description": "The largest boardroom, suitable for shareholder meetings, press conferences, and corporate events. Includes a reception area and secure comms room.",
+      "longDescription": "The Presidential Hall is designed for high-stakes events. The main space can be configured for board meetings, press conferences, or gala dinners. The dedicated communications room ensures secure connections, while the reception area provides space for guests and media.",
+      "image": "/images/presidental2.webp",
+      "gallery": [
+        "/images/boardroom/presidential-1.jpg",
+        "/images/boardroom/presidential-2.jpg"
+      ],
+      "features": [
+        "Flexible seating configurations",
+        "Private reception area",
+        "Secure communications room",
+        "Press conference lighting",
+        "Green room for speakers",
+        "Catering kitchen adjacent"
+      ],
+      "tech": [
+        "Multi-camera broadcast system",
+        "Press conference mixer",
+        "Encrypted satellite uplink",
+        "Real-time transcription service"
+      ]
+    },
+    {
+      "id": "directors-suite",
+      "slug": "directors-suite",
+      "name": "The Director's Suite",
+      "capacity": "8",
+      "size": "65",
+      "sizeUnit": "m²",
+      "floor": "8",
+      "view": "City",
+      "description": "Intimate setting for small executive teams. Perfect for strategy sessions and one-on-one meetings.",
+      "image": "/images/director.jpg",
+      "features": [
+        "Hand-stitched leather walls",
+        "Private terrace access",
+        "Espresso bar",
+        "Executive washroom"
+      ]
+    },
+    {
+      "id": "innovation-lab",
+      "slug": "innovation-lab",
+      "name": "The Innovation Lab",
+      "capacity": "16",
+      "size": "95",
+      "sizeUnit": "m²",
+      "floor": "18",
+      "view": "Skyline",
+      "description": "Creative space with interactive displays and flexible furniture. Ideal for brainstorming and workshops.",
+      "image": "/images/innovation.webp",
+      "features": [
+        "Interactive whiteboard walls",
+        "Modular furniture system",
+        "Prototyping area",
+        "Natural light harvesting"
+      ]
+    },
+    {
+      "id": "secure-vault",
+      "slug": "secure-vault",
+      "name": "The Secure Vault",
+      "capacity": "6",
+      "size": "45",
+      "sizeUnit": "m²",
+      "floor": "42",
+      "view": "None (Interior)",
+      "description": "Maximum security meeting room with no windows. Faraday cage construction for complete signal isolation.",
+      "image": "/images/secure.jpg",
+      "features": [
+        "Faraday cage construction",
+        "Biometric access only",
+        "Signal-isolated environment",
+        "Classified document storage"
+      ]
+    }
+  ],
+  "tech": [
+    {
+      "icon": "wifi",
+      "title": "10Gbps Dedicated",
+      "description": "Encrypted fiber connection with military-grade security"
+    },
+    {
+      "icon": "mic",
+      "title": "Voice Reinforcement",
+      "description": "Ceiling array microphones with AI noise cancellation"
+    },
+    {
+      "icon": "video",
+      "title": "4K Conferencing",
+      "description": "Broadcast-quality video systems with multi-camera switching"
+    },
+    {
+      "icon": "lock",
+      "title": "Biometric Access",
+      "description": "Fingerprint and facial recognition for authorized personnel"
+    },
+    {
+      "icon": "shield",
+      "title": "Tier 4 Security",
+      "description": "24/7 monitoring with armed response protocols"
+    },
+    {
+      "icon": "translate",
+      "title": "Translation Services",
+      "description": "Professional interpreters and translation booths available"
+    },
+    {
+      "icon": "record",
+      "title": "Secure Recording",
+      "description": "Encrypted meeting recording with chain of custody"
+    },
+    {
+      "icon": "satellite",
+      "title": "Satellite Uplink",
+      "description": "Backup communications independent of local infrastructure"
+    }
+  ],
+  "services": [
+    {
+      "title": "Executive Catering",
+      "description": "Michelin-starred dining experiences in your boardroom",
+      "image": "/images/boardroom/service-catering.jpg"
+    },
+    {
+      "title": "Translation Services",
+      "description": "Professional interpreters for up to 12 languages",
+      "image": "/images/boardroom/service-translation.jpg"
+    },
+    {
+      "title": "IT Support",
+      "description": "Dedicated technicians on standby during your meeting",
+      "image": "/images/boardroom/service-it.jpg"
+    },
+    {
+      "title": "Secure Shredding",
+      "description": "On-site document destruction with certification",
+      "image": "/images/boardroom/service-shredding.jpg"
+    },
+    {
+      "title": "Private Recording",
+      "description": "Encrypted audio/video recording for compliance",
+      "image": "/images/boardroom/service-recording.jpg"
+    },
+    {
+      "title": "Transportation",
+      "description": "Private car service for attendees",
+      "image": "/images/boardroom/service-transport.jpg"
+    }
+  ]
+}

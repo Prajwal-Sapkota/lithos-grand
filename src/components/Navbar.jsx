@@ -1,16 +1,30 @@
+// src/components/Navbar.jsx
 import { useState, useEffect, useRef } from "react";
-import { FiMenu, FiX } from "react-icons/fi";
+import { FiMenu, FiX, FiChevronDown } from "react-icons/fi";
+import { Link } from "react-router-dom";
+import BookingDrawer from "./BookingDrawer";
 
 const navItems = [
   {
     name: "THE COLLECTION",
     mega: true,
+    href: "/collection",
     items: ["Paris", "London", "Tokyo", "Dubai", "New York", "Zurich", "Singapore", "Geneva"],
   },
-  { name: "SANCTUARIES" },
-  { name: "THE BOARDROOM" },
-  { name: "CULINARY ATELIER" },
-  { name: "THE JOURNAL" },
+  { name: "SANCTUARIES", href: "/sanctuaries" },
+  { name: "THE BOARDROOM", href: "/boardroom" },
+  { name: "CULINARY ATELIER", href: "/culinary" },
+  { 
+    name: "MORE", 
+    href: "#",
+    mega: true,
+    items: [
+      { name: "THE JOURNAL", href: "/journal" },
+      { name: "TRAVEL STORIES", href: "/travel" },
+      { name: "WELLNESS", href: "/wellness" },
+      { name: "CONTACT", href: "/contact" }
+    ]
+  },
 ];
 
 export default function Navbar() {
@@ -18,11 +32,14 @@ export default function Navbar() {
   const [mobileOpen, setMobileOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const [navbarVisible, setNavbarVisible] = useState(false);
+  const [isBookingOpen, setIsBookingOpen] = useState(false);
+  const [showMore, setShowMore] = useState(false);
+  
   const navbarRef = useRef(null);
   const dropdownRef = useRef(null);
   const timeoutRef = useRef(null);
 
-  // Initial drop effect with useRef
+  // Initial drop effect
   useEffect(() => {
     const timer = setTimeout(() => {
       setNavbarVisible(true);
@@ -45,7 +62,7 @@ export default function Navbar() {
     setHovered(index);
   };
 
-  // Handle mouse leave with delay to allow moving to dropdown
+  // Handle mouse leave with delay
   const handleMouseLeave = () => {
     timeoutRef.current = setTimeout(() => {
       setHovered(null);
@@ -79,16 +96,19 @@ export default function Navbar() {
           }}
         >
           {/* Logo */}
-          <img
-            src="/images/logo.png"
-            alt="LITHOS GRAND"
-            onClick={() => {
-              window.scrollTo({ top: 0, behavior: 'smooth' });
-            }}
-            className="h-[30px] md:h-[34px] cursor-pointer transition-transform duration-300 hover:scale-105"
-          />
+          <Link
+            to="/"
+            onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+            className="flex items-center"
+          >
+            <img
+              src="/images/logo.png"
+              alt="LITHOS GRAND"
+              className="h-[30px] md:h-[34px] cursor-pointer transition-transform duration-500 hover:scale-105"
+            />
+          </Link>
 
-          {/* Desktop Menu - Hidden on tablet, show on lg */}
+          {/* Desktop Menu */}
           <div className="hidden lg:flex gap-8 xl:gap-12 relative">
             {navItems.map((nav, index) => (
               <div
@@ -97,9 +117,13 @@ export default function Navbar() {
                 onMouseLeave={handleMouseLeave}
                 className="relative"
               >
-                <span className="cursor-pointer text-[12px] xl:text-[14px] tracking-[0.18em] text-[#1A1A1A] transition-colors duration-300 hover:text-[#8C6A3B] whitespace-nowrap">
+                <Link
+                  to={nav.href}
+                  onClick={() => window.scrollTo(0, 0)}
+                  className="cursor-pointer text-[12px] xl:text-[14px] tracking-[0.18em] text-[#1A1A1A] transition-colors duration-300 hover:text-[#8C6A3B] whitespace-nowrap"
+                >
                   {nav.name}
-                </span>
+                </Link>
 
                 {/* Bronze Line */}
                 <div
@@ -117,14 +141,26 @@ export default function Navbar() {
                       animation: "fadeInUp 0.3s ease-out forwards",
                     }}
                   >
-                    {nav.items.map((city, i) => (
-                      <div
-                        key={i}
-                        className="text-[12px] xl:text-[14px] tracking-[0.15em] text-[#2C2C2C]/70 hover:text-[#8C6A3B] cursor-pointer whitespace-nowrap transition-colors duration-300"
-                      >
-                        {city}
-                      </div>
-                    ))}
+                    {nav.name === "THE COLLECTION" ? (
+                      nav.items.map((city, i) => (
+                        <div
+                          key={i}
+                          className="text-[12px] xl:text-[14px] tracking-[0.15em] text-[#2C2C2C]/70 hover:text-[#8C6A3B] cursor-pointer whitespace-nowrap transition-colors duration-300"
+                        >
+                          {city}
+                        </div>
+                      ))
+                    ) : (
+                      nav.items.map((item, i) => (
+                        <Link
+                          key={i}
+                          to={item.href}
+                          className="text-[12px] xl:text-[14px] tracking-[0.15em] text-[#2C2C2C]/70 hover:text-[#8C6A3B] cursor-pointer whitespace-nowrap transition-colors duration-300"
+                        >
+                          {item.name}
+                        </Link>
+                      ))
+                    )}
                     {/* Decorative corners */}
                     <div className="absolute top-2 left-2 w-4 h-4 border-t-2 border-l-2 border-[#8C6A3B]/20" />
                     <div className="absolute bottom-2 right-2 w-4 h-4 border-b-2 border-r-2 border-[#8C6A3B]/20" />
@@ -134,14 +170,15 @@ export default function Navbar() {
             ))}
           </div>
 
-          {/* CTA Button - Hidden on tablet, show on lg */}
+          {/* Desktop CTA Button */}
           <button
+            onClick={() => setIsBookingOpen(true)}
             className="hidden lg:block border border-[#8C6A3B] px-5 xl:px-6 py-2 tracking-[0.18em] rounded-full text-[12px] xl:text-[14px] transition-all duration-300 hover:bg-[#8C6A3B] hover:text-white whitespace-nowrap cursor-pointer"
           >
             RESERVE YOUR STAY
           </button>
 
-          {/* Mobile/Tablet Menu Icon - Show on lg and below */}
+          {/* Mobile Menu Icon */}
           <FiMenu
             onClick={() => setMobileOpen(true)}
             className="lg:hidden text-2xl cursor-pointer transition-transform duration-300 hover:scale-110"
@@ -149,7 +186,7 @@ export default function Navbar() {
         </nav>
       </header>
 
-      {/* Mobile Menu */}
+      {/* Mobile Menu - Exactly as you want with MORE */}
       <div
         className={`fixed inset-0 bg-[#EBE9E4] flex flex-col justify-center items-center z-50 transition-all duration-500 ${mobileOpen ? "opacity-100 visible" : "opacity-0 invisible"}`}
         style={{
@@ -161,10 +198,16 @@ export default function Navbar() {
           onClick={() => setMobileOpen(false)}
         />
 
-        {navItems.map((nav, i) => (
-          <div
+        {/* Main menu items */}
+        {navItems.slice(0, 4).map((nav, i) => (
+          <Link
             key={i}
+            to={nav.href}
             className="text-2xl md:text-3xl mb-6 md:mb-8 tracking-[0.2em] cursor-pointer transition-all duration-300 hover:text-[#8C6A3B] hover:translate-x-2"
+            onClick={() => { 
+              setMobileOpen(false); 
+              window.scrollTo(0, 0); 
+            }}
             style={{
               transition: "color 0.3s ease, transform 0.3s ease",
               animation: mobileOpen ? `fadeInUp 0.5s ease-out ${i * 0.1}s forwards` : "none",
@@ -173,13 +216,55 @@ export default function Navbar() {
             }}
           >
             {nav.name}
-          </div>
+          </Link>
         ))}
 
-        <button
-          className="border border-[#8C6A3B] px-6 md:px-8 py-3 tracking-[0.2em] rounded-full transition-all duration-300 hover:bg-[#8C6A3B] hover:text-white text-sm md:text-base"
+        {/* MORE button with dropdown */}
+        <div
+          className="w-full max-w-[300px] mb-6"
           style={{
-            animation: mobileOpen ? "fadeInUp 0.5s ease-out 0.5s forwards" : "none",
+            animation: mobileOpen ? `fadeInUp 0.5s ease-out ${4 * 0.1}s forwards` : "none",
+            opacity: 0,
+            transform: "translateY(20px)"
+          }}
+        >
+          <button
+            onClick={() => setShowMore(!showMore)}
+            className="w-full flex items-center justify-center text-2xl md:text-3xl tracking-[0.2em] text-[#2C2C2C] hover:text-[#8C6A3B] transition-colors px-4"
+          >
+            <span>MORE</span>
+            <FiChevronDown className={`transition-transform duration-300 ${showMore ? "rotate-180" : ""}`} />
+          </button>
+
+          {/* Dropdown items */}
+          <div className={`mt-4  overflow-hidden transition-all duration-300 ${
+            showMore ? "max-h-96 opacity-100" : "max-h-0 opacity-0"
+          }`}>
+            {navItems[4].items.map((item, idx) => (
+              <Link
+                key={idx}
+                to={item.href}
+                className="block text-lg text-[#2C2C2C]/60 hover:text-[#8C6A3B] transition-colors text-center py-2"
+                onClick={() => { 
+                  setMobileOpen(false); 
+                  window.scrollTo(0, 0); 
+                }}
+              >
+                {item.name}
+              </Link>
+            ))}
+          </div>
+        </div>
+
+        {/* Mobile Booking Button */}
+        <button
+          onClick={() => {
+            setMobileOpen(false);
+            setIsBookingOpen(true);
+          }}
+          className="border border-[#8C6A3B] px-8 py-4 rounded-full transition-all duration-300 hover:bg-[#8C6A3B] hover:text-white text-base font-medium w-[300px] "
+          style={{
+            animation: mobileOpen ? "fadeInUp 0.5s ease-out 0.7s forwards" : "none",
             opacity: 0,
             transform: "translateY(20px)"
           }}
@@ -188,8 +273,14 @@ export default function Navbar() {
         </button>
       </div>
 
-      {/* Animation Styles */}
-      <style jsx>{`
+      {/* Booking Drawer */}
+      <BookingDrawer
+        isOpen={isBookingOpen}
+        onClose={() => setIsBookingOpen(false)}
+      />
+
+      {/* Animation Keyframes */}
+      <style>{`
         @keyframes fadeInUp {
           from {
             opacity: 0;

@@ -54,7 +54,7 @@ const Footer = () => {
                         {/* NEWSLETTER */}
                         <div className="mb-6 md:mb-0">
                             <p className="font-public-sans text-[8px] md:text-[9px] tracking-[0.3em] mb-3 md:mb-4 text-white/40 uppercase">
-                                Subscribe
+                                Join Our Community
                             </p>
                             <div className="flex border-b border-white/20 pb-2 md:pb-3 group">
                                 <input
@@ -147,14 +147,14 @@ const Footer = () => {
 
                     <p className="font-public-sans text-white/40 text-xs sm:text-sm hover:text-white/60 transition text-center md:text-right order-1 md:order-2">
                         Crafted by:{' '}
-                        <a
-                            href="https://www.sait.com.np/"
+                        <Link
+                            to="https://www.sait.com.np/"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="hover:text-white border-b border-white/20 pb-0.5"
                         >
                             S.A.I.T Solution Nepal
-                        </a>
+                        </Link>
                     </p>
                 </div>
             </div>

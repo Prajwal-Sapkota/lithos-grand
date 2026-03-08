@@ -1,0 +1,618 @@
+{
+  "hero": {
+    "title": "THE COLLECTION",
+    "subtitle": "Twelve monolithic structures. Twelve global capitals. One architectural standard of silence and stone.",
+    "image": "/images/collection.jpg"
+  },
+  "intro": {
+    "title": "A Century of Limestone",
+    "description": "From Auguste Perret's original vision on the Champs-Élysées to Zaha Hadid's desert masterpiece in Dubai, each LITHOS monolith carries the same philosophy: stone, silence, power.",
+    "stats": {
+      "monoliths": "12",
+      "countries": "8",
+      "maxFloors": "96",
+      "architects": "8"
+    }
+  },
+  "cities": [
+    {
+      "id": "paris",
+      "slug": "paris",
+      "name": "PARIS",
+      "fullName": "LITHOS Paris",
+      "year": "1928",
+      "architect": "Auguste Perret",
+      "architectId": "auguste-perret",
+      "height": "48m",
+      "floors": "8",
+      "suites": "32",
+      "style": "Art Deco / Modernist",
+      "location": "12 Avenue des Champs-Élysées",
+      "coordinates": "48°51'24\"N 2°21'03\"E",
+      "description": "The original monolith where it all began. Completely restored in 2024 while preserving original limestone facades.",
+      "longDescription": "LITHOS Paris stands as the cornerstone of our collection. Commissioned in 1928 by the Société des Grands Hotels, Auguste Perret's masterpiece was the first to embody our philosophy of architectural silence. The building's iconic limestone facade, quarried from Château-Landon, has witnessed nearly a century of history while maintaining its timeless elegance. The 2024 restoration, led by Studio Perret, carefully preserved every original detail while introducing state-of-the-art acoustic isolation and discreet modern amenities.",
+      "image": "/images/paris.jpg",
+      "gallery": [
+        "/images/paris1.jpeg",
+        "/images/paris2.webp",
+        "/images/paris3.webp",
+        "/images/paris4.jpg"
+      ],
+      "features": [
+        "Original limestone facade",
+        "Private rooftop terrace",
+        "12-meter lobby ceiling",
+        "Hidden garden courtyard"
+      ],
+      "nearby": ["Arc de Triomphe", "Grand Palais", "Seine River"],
+      "pageUrl": "/collection/paris"
+    },
+    {
+      "id": "london",
+      "slug": "london",
+      "name": "LONDON",
+      "fullName": "LITHOS London",
+      "year": "2015",
+      "architect": "David Chipperfield",
+      "architectId": "david-chipperfield",
+      "height": "52m",
+      "floors": "12",
+      "suites": "45",
+      "style": "New Brutalism",
+      "location": "Mayfair, London",
+      "coordinates": "51°30'30\"N 0°08'39\"W",
+      "description": "Raw concrete and limestone. Award-winning restoration of a 1960s landmark.",
+      "longDescription": "LITHOS London represents the perfect marriage of Brutalist architecture and LITHOS luxury. David Chipperfield's sensitive restoration of this 1965 landmark preserves the raw honesty of exposed concrete while introducing warm Portland stone interiors. The building's geometric facade creates ever-changing patterns of light and shadow throughout the day.",
+      "image": "/images/london.webp",
+      "gallery": [
+        "/images/london1.webp",
+        "/images/london2.jpg",
+        "/images/london3.jpg"
+      ],
+      "features": [
+        "Original Brutalist architecture",
+        "Private mews entrance",
+        "Rooftop garden",
+        "Members-only lounge"
+      ],
+      "nearby": ["Hyde Park", "Bond Street", "Royal Academy"],
+      "pageUrl": "/collection/london"
+    },
+    {
+      "id": "tokyo",
+      "slug": "tokyo",
+      "name": "TOKYO",
+      "fullName": "LITHOS Tokyo",
+      "year": "2019",
+      "architect": "Tadao Ando",
+      "architectId": "tadao-ando",
+      "height": "186m",
+      "floors": "47",
+      "suites": "78",
+      "style": "Brutalist / Minimalist",
+      "location": "Shinjuku District, Tokyo",
+      "coordinates": "35°41'23\"N 139°41'32\"E",
+      "description": "47 floors of silence above the world's busiest intersection. Private helipad on level 45.",
+      "longDescription": "Tadao Ando's first skyscraper, LITHOS Tokyo rises above the neon chaos of Shinjuku like a silent sentinel. The building's signature exposed concrete, meticulously poured and finished, creates a sanctuary of calm in one of the world's most vibrant districts. Each suite features floor-to-ceiling windows with soundproofing that renders the city below completely silent.",
+      "image": "/images/tokyo.jpg",
+      "gallery": [
+        "/images/tokyo1.jpg",
+        "/images/tokyo2.jpg",
+        "/images/tokyo3.jpg"
+      ],
+      "features": [
+        "Private helipad (Level 45)",
+        "Zen garden on Level 30",
+        "Onsen-style baths",
+        "Tea ceremony room"
+      ],
+      "nearby": ["Shinjuku Gyoen", "Meiji Shrine", "Tokyo Metropolitan Building"],
+      "pageUrl": "/collection/tokyo"
+    },
+    {
+      "id": "dubai",
+      "slug": "dubai",
+      "name": "DUBAI",
+      "fullName": "LITHOS Dubai",
+      "year": "2022",
+      "architect": "Zaha Hadid",
+      "architectId": "zaha-hadid",
+      "height": "305m",
+      "floors": "63",
+      "suites": "92",
+      "style": "Neo-futurism",
+      "location": "Downtown Dubai",
+      "coordinates": "25°12'17\"N 55°16'01\"E",
+      "description": "The tallest of the collection. Fluid architecture inspired by desert dunes.",
+      "longDescription": "Zaha Hadid's final completed project, LITHOS Dubai is a masterpiece of parametric design. The building's flowing forms, inspired by the movement of desert sands, create a striking silhouette against Dubai's skyline. Inside, the seamless curves continue, with each suite offering panoramic views of the city and beyond.",
+      "image": "/images/dubai.webp",
+      "gallery": [
+        "/images/dubai1.webp",
+        "/images/dubai2.jpg",
+        "/images/dubai3.jpg"
+      ],
+      "features": [
+        "Infinity pool on Level 60",
+        "Desert-view terraces",
+        "Parametric interior design",
+        "Private butler service"
+      ],
+      "nearby": ["Burj Khalifa", "Dubai Mall", "Dubai Fountain"],
+      "pageUrl": "/collection/dubai"
+    },
+    {
+      "id": "new-york",
+      "slug": "new-york",
+      "name": "NEW YORK",
+      "fullName": "LITHOS New York",
+      "year": "2023",
+      "architect": "Rafael Viñoly",
+      "architectId": "rafael-vinoly",
+      "height": "426m",
+      "floors": "96",
+      "suites": "96",
+      "style": "Structural expressionism",
+      "location": "432 Park Avenue, New York",
+      "coordinates": "40°45'46\"N 73°59'05\"W",
+      "description": "The newest addition. Rising above Manhattan with floor-to-ceiling limestone interiors.",
+      "longDescription": "LITHOS New York redefines luxury living in the sky. Rafael Viñoly's slender tower offers unparalleled views of Central Park and the Manhattan skyline. The building's exposed structural columns create a distinctive grid pattern, while the interiors feature floor-to-ceiling limestone and floor-to-ceiling windows that flood each space with natural light.",
+      "image": "/images/newyork.jpg",
+      "gallery": [
+        "/images/newyork1.jpg",
+        "/images/newyork2.jpg",
+        "/images/newyork3.webp"
+      ],
+      "features": [
+        "Central Park views",
+        "Private dining room",
+        "Wine cellar",
+        "Personal training studio"
+      ],
+      "nearby": ["Central Park", "Museum of Modern Art", "Fifth Avenue"],
+      "pageUrl": "/collection/new-york"
+    },
+    {
+      "id": "singapore",
+      "slug": "singapore",
+      "name": "SINGAPORE",
+      "fullName": "LITHOS Singapore",
+      "year": "2020",
+      "architect": "Moshe Safdie",
+      "architectId": "moshe-safdie",
+      "height": "193m",
+      "floors": "55",
+      "suites": "72",
+      "style": "Biophilic modern",
+      "location": "Marina Bay, Singapore",
+      "coordinates": "1°16'54\"N 103°51'07\"E",
+      "description": "Sky gardens every 11 floors. Tropical modernism meets LITHOS limestone.",
+      "longDescription": "Moshe Safdie's LITHOS Singapore brings the outdoors in with its revolutionary biophilic design. Sky gardens every 11 floors create vertical oases of tropical vegetation, while the limestone-clad interiors maintain the signature LITHOS aesthetic. The building's open-air corridors and natural ventilation systems reduce energy consumption while connecting guests with Singapore's lush environment.",
+      "image": "/images/singapore.jpg",
+      "gallery": [
+        "/images/singapore1.webp",
+        "/images/singapore2.jpg",
+        "/images/singapore3.webp"
+      ],
+      "features": [
+        "Vertical sky gardens",
+        "Infinity edge pool",
+        "Spa with rainforest views",
+        "Private cabanas"
+      ],
+      "nearby": ["Marina Bay Sands", "Gardens by the Bay", "Merlion Park"],
+      "pageUrl": "/collection/singapore"
+    },
+    {
+      "id": "zurich",
+      "slug": "zurich",
+      "name": "ZURICH",
+      "fullName": "LITHOS Zurich",
+      "year": "2017",
+      "architect": "Peter Zumthor",
+      "architectId": "peter-zumthor",
+      "height": "36m",
+      "floors": "8",
+      "suites": "28",
+      "style": "Minimalist / Thermal",
+      "location": "Bahnhofstrasse, Zurich",
+      "coordinates": "47°22'12\"N 8°32'25\"E",
+      "description": "Swiss precision meets LITHOS silence. Thermal baths on the lower levels.",
+      "longDescription": "Peter Zumthor's only hotel project, LITHOS Zurich is a meditation on materiality and light. The building's minimalist facade conceals a world of thermal baths, steam rooms, and quiet contemplation. Each suite is a study in Swiss precision, with custom-designed furniture and fixtures that reflect the region's craft tradition.",
+      "image": "/images/zurich.jpg",
+      "gallery": [
+        "/images/zurich1.jpg",
+        "/images/zurich2.jpg",
+        "/images/zurich3.jpg"
+      ],
+      "features": [
+        "Thermal baths (Levels 1-2)",
+        "Private spa suites",
+        "Swiss stone pine interiors",
+        "Cryotherapy chamber"
+      ],
+      "nearby": ["Lake Zurich", "Old Town", "Swiss National Museum"],
+      "pageUrl": "/collection/zurich"
+    },
+    {
+      "id": "geneva",
+      "slug": "geneva",
+      "name": "GENEVA",
+      "fullName": "LITHOS Geneva",
+      "year": "2018",
+      "architect": "Mario Botta",
+      "architectId": "mario-botta",
+      "height": "42m",
+      "floors": "10",
+      "suites": "35",
+      "style": "Geometric modernist",
+      "location": "Rue du Rhône, Geneva",
+      "coordinates": "46°12'05\"N 6°08'57\"E",
+      "description": "Diplomatic sanctuary. Private meeting rooms for international delegations.",
+      "longDescription": "Mario Botta's geometric masterpiece in Geneva serves as a diplomatic sanctuary for international delegations. The building's distinctive striped facade of limestone and marble creates a powerful presence on Rue du Rhône, while the interior features multiple secure meeting rooms and translation facilities. Each suite offers views of either the Rhône or the Alps.",
+      "image": "/images/geneva.webp",
+      "gallery": [
+        "/images/zeneva1.jpg",
+        "/images/geneva2.webp",
+        "/images/geneva3.webp"
+      ],
+      "features": [
+        "Secure meeting floors",
+        "Translation booths",
+        "Diplomatic lounge",
+        "Alps-view terraces"
+      ],
+      "nearby": ["Lake Geneva", "United Nations", "Jet d'Eau"],
+      "pageUrl": "/collection/geneva"
+    },
+    {
+      "id": "mumbai",
+      "slug": "mumbai",
+      "name": "MUMBAI",
+      "fullName": "LITHOS Mumbai",
+      "year": "2024",
+      "architect": "B.V. Doshi",
+      "architectId": "bv-doshi",
+      "height": "156m",
+      "floors": "42",
+      "suites": "68",
+      "style": "Tropical modernism",
+      "location": "Colaba, Mumbai",
+      "coordinates": "18°55'19\"N 72°49'51\"E",
+      "description": "Where the Arabian Sea meets LITHOS limestone. Opened 2024.",
+      "longDescription": "The latest addition to the collection, LITHOS Mumbai brings our philosophy to the Indian subcontinent. Pritzker laureate B.V. Doshi's design responds to the tropical climate with deep balconies, cross-ventilation, and shaded terraces. The building's limestone facade takes on a warm glow in the afternoon light, echoing the region's ancient stepwells and stone architecture.",
+      "image": "/images/mumbai.webp",
+      "gallery": [
+        "/images/mumbai1.jpg",
+        "/images/mumbai2.webp",
+        "/images/mumbai3.webp"
+      ],
+      "features": [
+        "Arabian Sea frontage",
+        "Rooftop infinity pool",
+        "Ayurvedic spa",
+        "Private beach access"
+      ],
+      "nearby": ["Gateway of India", "Taj Mahal Palace", "Marine Drive"],
+      "pageUrl": "/collection/mumbai"
+    },
+    {
+      "id": "kyoto",
+      "slug": "kyoto",
+      "name": "KYOTO",
+      "fullName": "LITHOS Kyoto",
+      "year": "2025",
+      "architect": "Kengo Kuma",
+      "architectId": "kengo-kuma",
+      "height": "28m",
+      "floors": "5",
+      "suites": "22",
+      "style": "Shoin-zukuri / Modern",
+      "location": "Higashiyama District, Kyoto",
+      "coordinates": "34°59'54\"N 135°46'36\"E",
+      "description": "Coming 2025. A modern interpretation of the traditional Japanese inn.",
+      "longDescription": "Scheduled to open in 2025, LITHOS Kyoto represents a dialogue between ancient and modern Japan. Kengo Kuma's design draws from the shoin-zukuri architectural tradition, with deep eaves, wooden lattices, and intimate garden views. The property will feature only 22 suites, each with its own private garden and onsen-style bath.",
+      "image": "/images/kyoto.jpg",
+      "gallery": [
+        "/images/kyoto1.webp",
+        "/images/kyoto2.jpg",
+        "/images/kyoto3.jpg"
+      ],
+      "features": [
+        "Private garden in each suite",
+        "Natural onsen baths",
+        "Tea ceremony room",
+        "Kaiseki dining"
+      ],
+      "nearby": ["Kiyomizu-dera", "Gion District", "Philosopher's Path"],
+      "pageUrl": "/collection/kyoto"
+    },
+    {
+      "id": "shanghai",
+      "slug": "shanghai",
+      "name": "SHANGHAI",
+      "fullName": "LITHOS Shanghai",
+      "year": "2026",
+      "architect": "Wang Shu",
+      "architectId": "wang-shu",
+      "height": "210m",
+      "floors": "52",
+      "suites": "85",
+      "style": "Critical regionalism",
+      "location": "The Bund, Shanghai",
+      "coordinates": "31°14'31\"N 121°29'17\"E",
+      "description": "Coming 2026. A vertical garden overlooking the Huangpu River.",
+      "longDescription": "Set to open in 2026, LITHOS Shanghai will redefine luxury on the Bund. Wang Shu's design incorporates recycled materials and vertical gardens, creating a living building that changes with the seasons. The upper floors offer uninterrupted views of the Pudong skyline, while the lower levels connect to a new riverfront promenade.",
+      "image": "/images/shangai.jpg",
+      "gallery": [
+        "/images/shangai1.jpg",
+        "/images/shangai2.jpg",
+        "/images/shangai3.jpg"
+      ],
+      "features": [
+        "Vertical gardens",
+        "River-view infinity pool",
+        "Contemporary art gallery",
+        "Tea house on Level 50"
+      ],
+      "nearby": ["The Bund", "Huangpu River", "Nanjing Road"],
+      "pageUrl": "/collection/shanghai"
+    },
+    {
+      "id": "sydney",
+      "slug": "sydney",
+      "name": "SYDNEY",
+      "fullName": "LITHOS Sydney",
+      "year": "2027",
+      "architect": "Kerry Hill",
+      "architectId": "kerry-hill",
+      "height": "165m",
+      "floors": "38",
+      "suites": "62",
+      "style": "Tropical modernism",
+      "location": "Circular Quay, Sydney",
+      "coordinates": "33°51'38\"S 151°12'36\"E",
+      "description": "Coming 2027. Harbour views from every suite.",
+      "longDescription": "Scheduled for 2027, LITHOS Sydney will be the first Australian property in the collection. The late Kerry Hill's design celebrates the relationship between land and water, with every suite offering views of Sydney Harbour. The building's limestone facade will be quarried from South Australia, continuing our commitment to local materials.",
+      "image": "/images/sydney.jpg",
+      "gallery": [
+        "/images/sydney1.avif",
+        "/images/sydney2.avif",
+        "/images/sydney3.webp"
+      ],
+      "features": [
+        "Harbour views",
+        "Private marina access",
+        "Rooftop restaurant",
+        "Day spa with ocean pool"
+      ],
+      "nearby": ["Sydney Opera House", "Harbour Bridge", "Royal Botanic Garden"],
+      "pageUrl": "/collection/sydney"
+    }
+  ],
+  "architects": [
+    {
+      "id": "auguste-perret",
+      "name": "Auguste Perret",
+      "birth": "1874",
+      "death": "1954",
+      "nationality": "French",
+      "style": "Art Deco / Modernist",
+      "notableWorks": ["Théâtre des Champs-Élysées", "Église Notre-Dame du Raincy"],
+      "bio": "Pioneer of reinforced concrete construction and a master of French modernist architecture.",
+      "image": "/images/architects/perret.jpg",
+      "cities": ["paris"]
+    },
+    {
+      "id": "david-chipperfield",
+      "name": "David Chipperfield",
+      "birth": "1953",
+      "death": null,
+      "nationality": "British",
+      "style": "New Brutalism",
+      "notableWorks": ["Neues Museum Berlin", "Hepworth Wakefield"],
+      "bio": "Pritzker Prize-winning architect known for his sensitive restorations and minimalist aesthetic.",
+      "image": "/images/architects/chipperfield.jpg",
+      "cities": ["london"]
+    },
+    {
+      "id": "tadao-ando",
+      "name": "Tadao Ando",
+      "birth": "1941",
+      "death": null,
+      "nationality": "Japanese",
+      "style": "Brutalist / Minimalist",
+      "notableWorks": ["Church of the Light", "Naoshima Contemporary Art Museum"],
+      "bio": "Self-taught architect famous for his mastery of concrete and light.",
+      "image": "/images/architects/ando.jpg",
+      "cities": ["tokyo"]
+    },
+    {
+      "id": "zaha-hadid",
+      "name": "Zaha Hadid",
+      "birth": "1950",
+      "death": "2016",
+      "nationality": "Iraqi-British",
+      "style": "Neo-futurism",
+      "notableWorks": ["Heydar Aliyev Center", "London Aquatics Centre"],
+      "bio": "First woman to win the Pritzker Prize, known for her fluid, futuristic forms.",
+      "image": "/images/architects/hadid.jpg",
+      "cities": ["dubai"]
+    },
+    {
+      "id": "rafael-vinoly",
+      "name": "Rafael Viñoly",
+      "birth": "1944",
+      "death": "2023",
+      "nationality": "Uruguayan",
+      "style": "Structural expressionism",
+      "notableWorks": ["432 Park Avenue", "Tokyo International Forum"],
+      "bio": "Known for his slender skyscrapers and innovative structural solutions.",
+      "image": "/images/architects/vinoly.jpg",
+      "cities": ["new-york"]
+    },
+    {
+      "id": "moshe-safdie",
+      "name": "Moshe Safdie",
+      "birth": "1938",
+      "death": null,
+      "nationality": "Israeli-Canadian",
+      "style": "Biophilic modern",
+      "notableWorks": ["Habitat 67", "Marina Bay Sands"],
+      "bio": "Pioneer of modular construction and biophilic design.",
+      "image": "/images/architects/safdie.jpg",
+      "cities": ["singapore"]
+    },
+    {
+      "id": "peter-zumthor",
+      "name": "Peter Zumthor",
+      "birth": "1943",
+      "death": null,
+      "nationality": "Swiss",
+      "style": "Minimalist",
+      "notableWorks": ["Therme Vals", "Kunsthaus Bregenz"],
+      "bio": "Pritzker Prize winner known for his sensory architecture and material mastery.",
+      "image": "/images/architects/zumthor.jpg",
+      "cities": ["zurich"]
+    },
+    {
+      "id": "mario-botta",
+      "name": "Mario Botta",
+      "birth": "1943",
+      "death": null,
+      "nationality": "Swiss",
+      "style": "Geometric modernist",
+      "notableWorks": ["San Francisco Museum of Modern Art", "Cathedral of Évry"],
+      "bio": "Known for his geometric forms and striped masonry facades.",
+      "image": "/images/architects/botta.jpg",
+      "cities": ["geneva"]
+    },
+    {
+      "id": "bv-doshi",
+      "name": "B.V. Doshi",
+      "birth": "1927",
+      "death": "2023",
+      "nationality": "Indian",
+      "style": "Tropical modernism",
+      "notableWorks": ["CEPT University", "Aranya Low Cost Housing"],
+      "bio": "First Indian architect to win the Pritzker Prize, pioneer of tropical modernism.",
+      "image": "/images/architects/doshi.jpg",
+      "cities": ["mumbai"]
+    },
+    {
+      "id": "kengo-kuma",
+      "name": "Kengo Kuma",
+      "birth": "1954",
+      "death": null,
+      "nationality": "Japanese",
+      "style": "Shoin-zukuri / Modern",
+      "notableWorks": ["Japan National Stadium", "Ace Hotel Kyoto"],
+      "bio": "Known for his integration of traditional Japanese elements with modern design.",
+      "image": "/images/architects/kuma.jpg",
+      "cities": ["kyoto"]
+    },
+    {
+      "id": "wang-shu",
+      "name": "Wang Shu",
+      "birth": "1963",
+      "death": null,
+      "nationality": "Chinese",
+      "style": "Critical regionalism",
+      "notableWorks": ["Ningbo Museum", "Campus of China Academy of Art"],
+      "bio": "Pritzker Prize winner known for his use of recycled materials and traditional techniques.",
+      "image": "/images/architects/wangshu.jpg",
+      "cities": ["shanghai"]
+    },
+    {
+      "id": "kerry-hill",
+      "name": "Kerry Hill",
+      "birth": "1943",
+      "death": "2018",
+      "nationality": "Australian",
+      "style": "Tropical modernism",
+      "notableWorks": ["Datai Langkawi", "Aman Tokyo"],
+      "bio": "Master of resort architecture and tropical modernism.",
+      "image": "/images/architects/hill.jpg",
+      "cities": ["sydney"]
+    }
+  ],
+  "brands": [
+    {
+      "id": "lithos-grand",
+      "name": "LITHOS GRAND",
+      "description": "Flagship ultra-luxury hotels in global capitals",
+      "longDescription": "The original LITHOS brand, established in 1928 with the opening of LITHOS Paris. Each LITHOS GRAND property is a architectural landmark, designed by world-renowned architects and carved from local limestone. These are our signature properties, offering the complete LITHOS experience: absolute silence, uncompromising privacy, and service that anticipates every need.",
+      "image": "/images/collectionintro.jpg",
+      "logo": "/images/brands/lithos-grand-logo.png",
+      "properties": 12,
+      "category": "Ultra-Luxury",
+      "established": "1928",
+      "website": "https://www.lithosgrand.com",
+      "featured": true
+    },
+    {
+      "id": "ember-collection",
+      "name": "THE EMBER COLLECTION",
+      "description": "Boutique luxury hotels with character",
+      "longDescription": "A collection of intimate properties in emerging destinations. Each EMBER hotel tells a unique story, celebrating local culture and craftsmanship while maintaining LITHOS standards of service and comfort. Perfect for the discerning traveler seeking authentic experiences.",
+      "image": "/images/ember1.jpg",
+      "logo": "/images/brands/ember-logo.png",
+      "properties": 6,
+      "category": "Boutique Luxury",
+      "established": "2018",
+      "website": "https://www.embercollection.com",
+      "featured": true
+    },
+    {
+      "id": "silence-retreats",
+      "name": "SILENCE Retreats",
+      "description": "Wellness sanctuaries in remote destinations",
+      "longDescription": "Dedicated to holistic wellness and digital detox. SILENCE Retreats are located in the world's most peaceful locations - from the Himalayas to the Patagonian Andes. Each retreat offers personalized wellness programs, ancient healing rituals, and complete disconnection from the outside world.",
+      "image": "/images/silence1.jpg",
+      "logo": "/images/brands/silence-logo.png",
+      "properties": 4,
+      "category": "Wellness",
+      "established": "2020",
+      "website": "https://www.silenceretreats.com",
+      "featured": true
+    },
+    {
+      "id": "limestone-heritage",
+      "name": "LIMESTONE Heritage",
+      "description": "Historic palace conversions and heritage properties",
+      "longDescription": "Preserving architectural heritage while creating luxurious accommodations. LIMESTONE Heritage properties include converted palaces, castles, and historic mansions, each meticulously restored to its former glory. These properties offer a unique glimpse into the past while providing modern luxury.",
+      "image": "/images/limestone1.webp",
+      "logo": "/images/brands/heritage-logo.png",
+      "properties": 5,
+      "category": "Heritage",
+      "established": "1985",
+      "website": "https://www.limestoneheritage.com",
+      "featured": true
+    },
+    {
+      "id": "lithos-residences",
+      "name": "LITHOS Residences",
+      "description": "Private residential sanctuaries",
+      "longDescription": "For those who wish to make LITHOS their home. LITHOS Residences offer the same architectural excellence and service standards as our hotels, but with the privacy and permanence of a private residence. Available for purchase or long-term lease in select locations.",
+      "image": "/images/residence.jpg",
+      "logo": "/images/brands/residences-logo.png",
+      "properties": 8,
+      "category": "Residences",
+      "established": "2015",
+      "website": "https://www.lithosresidences.com",
+      "featured": true
+    },
+    {
+      "id": "the-inner-circle",
+      "name": "THE INNER CIRCLE",
+      "description": "Private membership club with global privileges",
+      "longDescription": "By invitation only. THE INNER CIRCLE offers the ultimate expression of LITHOS luxury. Members enjoy priority access, exclusive experiences, and privileges across all LITHOS properties and brands. Includes personal concierge, private events, and access to members-only spaces.",
+      "image": "/images/inner.avif",
+      "logo": "/images/brands/circle-logo.png",
+      "properties": 1,
+      "category": "Membership",
+      "established": "2022",
+      "website": "https://www.innercircle.lithos.com",
+      "featured": true
+    }
+  ]
+}

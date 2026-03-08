@@ -1,0 +1,57 @@
+{
+  "hero": {
+    "title": "TRAVEL STORIES",
+    "image": "/images/travel.jpg"
+  },
+  "destinations": [
+    { "id": 1, "name": "NEW YORK" },
+    { "id": 2, "name": "LONDON" },
+    { "id": 3, "name": "ZURICH" },
+    { "id": 4, "name": "DUBAI" },
+    { "id": 5, "name": "SINGAPORE" },
+    { "id": 6, "name": "TOKYO" },
+    { "id": 7, "name": "VIENNA" },
+    { "id": 8, "name": "MUMBAI" }
+  ],
+  
+  "featuredStory": {
+    "title": "The Zurich Passage",
+    "excerpt": "Six hours, three meetings, one unseen hand. You land at 08:00. Your first meeting is at 09:30 in Paradeplatz. Between them: immigration, traffic, check-in, a shower, a pressed shirt, and breakfast. Most executives lose the morning to logistics. Our guest did not.",
+    "image": "/images/featured1.jpg",
+    "link": "/stories/zurich-passage"
+  },
+  "stories": [
+    {
+      "id": 1,
+      "title": "Crossing the Atlantic While You Sleep",
+      "theme": "The Passage",
+      "excerpt": "Depart Teterboro at 21:00 after your New York dinner. At 08:00 London time, you step into a car at Farnborough. The Atlantic crossed itself. You simply slept.",
+      "image": "/images/travelstory1.jpg",
+      "link": "/stories/atlantic-crossing"
+    },
+    {
+      "id": 2,
+      "title": "The Desert Crossing",
+      "theme": "The Journey",
+      "excerpt": "From Dubai to the Empty Quarter. Three hours by private car. The city dissolves into sand. The last fifteen minutes on unmarked roads. Then: a camp that should not exist this far out.",
+      "image": "/images/travelstory2.webp",
+      "link": "/stories/desert-crossing"
+    },
+    {
+      "id": 3,
+      "title": "Tokyo to Kyoto by Whisper",
+      "theme": "The Detour",
+      "excerpt": "The Shinkansen is efficient. But efficiency is not always the point. Our guest took the slower train. Stopped at a temple nobody visits. Arrived in Kyoto two hours later than planned. She says it was the best two hours of the year.",
+      "image": "/images/travelstory3.webp",
+      "link": "/stories/tokyo-kyoto"
+    },
+    {
+      "id": 4,
+      "title": "The Vienna Interval",
+      "theme": "The Layover",
+      "excerpt": "Four hours between flights. Most people wait in lounges. Our guest asked for something else. Within twenty minutes, a car took her to a private wine cellar beneath the city. She returned to the airport carrying a bottle from 1789.",
+      "image": "/images/travelstory4.webp",
+      "link": "/stories/vienna-interval"
+    }
+  ]
+}

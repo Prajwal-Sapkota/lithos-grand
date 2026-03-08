@@ -1,0 +1,378 @@
+{
+  "hero": {
+    "title": "THE SANCTUARIES",
+    "subtitle": "Twelve distinct residences. One standard of absolute silence and privacy.",
+    "image": "/images/sanctuary1.jpg"
+  },
+  "intro": {
+    "title": "Where Silence Resides",
+    "description": "Each sanctuary is meticulously crafted to provide absolute privacy and tranquility. From intimate executive studios to expansive presidential residences, every space is a testament to architectural precision and uncompromising luxury.",
+    "stats": {
+      "suites": "12",
+      "floors": "96",
+      "height": "426m",
+      "views": "360°",
+      "since": "1928"
+    }
+  },
+  "sanctuaries": [
+    {
+      "id": "executive-sanctuary",
+      "slug": "executive-sanctuary",
+      "category": "Executive",
+      "name": "Executive Sanctuary",
+      "size": "65",
+      "sizeUnit": "m²",
+      "floorRange": "12-24",
+      "view": "Skyline",
+      "bedrooms": "1",
+      "bathrooms": "1",
+      "maxOccupancy": "2 guests",
+      "bedType": "King-size bed",
+      "price": "€1,200",
+      "priceUnit": "per night",
+      "description": "A perfectly calibrated space for the solo executive traveler. Every surface, every shadow, every sound is controlled.",
+      "image": "/images/executive1.jpg",
+      "features": [
+        "Limestone feature wall",
+        "Smart glass privacy system",
+        "Private terrace (10m²)",
+        "Italian marble bathroom"
+      ]
+    },
+    {
+      "id": "premier-sanctuary",
+      "slug": "premier-sanctuary",
+      "category": "Executive",
+      "name": "Premier Sanctuary",
+      "size": "85",
+      "sizeUnit": "m²",
+      "floorRange": "25-35",
+      "view": "Skyline",
+      "bedrooms": "1",
+      "bathrooms": "1.5",
+      "maxOccupancy": "2 guests",
+      "bedType": "King-size bed",
+      "price": "€1,800",
+      "priceUnit": "per night",
+      "description": "Enhanced space with separate living area and upgraded finishes for the discerning executive.",
+      "image": "/images/premier.jpg",
+      "features": [
+        "Separate living area",
+        "Walk-in wardrobe",
+        "Double vanity bathroom",
+        "Espresso machine"
+      ]
+    },
+    {
+      "id": "panoramic-sanctuary",
+      "slug": "panoramic-sanctuary",
+      "category": "Executive",
+      "name": "Panoramic Sanctuary",
+      "size": "95",
+      "sizeUnit": "m²",
+      "floorRange": "36-45",
+      "view": "Panoramic",
+      "bedrooms": "1",
+      "bathrooms": "1.5",
+      "maxOccupancy": "2 guests",
+      "bedType": "King-size bed",
+      "price": "€2,200",
+      "priceUnit": "per night",
+      "description": "Corner suite with floor-to-ceiling windows offering breathtaking panoramic city views.",
+      "image": "/images/panoramic.jpg",
+      "features": [
+        "Corner position",
+        "Panoramic windows",
+        "Dining area for 4",
+        "Wine fridge"
+      ]
+    },
+    {
+      "id": "monolith-suite",
+      "slug": "monolith-suite",
+      "category": "Monolith",
+      "name": "Monolith Suite",
+      "size": "120",
+      "sizeUnit": "m²",
+      "floorRange": "25-40",
+      "view": "Panoramic",
+      "bedrooms": "1",
+      "bathrooms": "2",
+      "maxOccupancy": "4 guests",
+      "bedType": "King-size bed + Queen sofa bed",
+      "price": "€2,800",
+      "priceUnit": "per night",
+      "description": "A sanctuary for the connoisseur featuring a private library and stone-carved bath.",
+      "image": "/images/monolith.webp",
+      "features": [
+        "Private library",
+        "Stone-carved bath",
+        "Separate living and dining",
+        "Walk-in closet"
+      ]
+    },
+    {
+      "id": "ambassador-suite",
+      "slug": "ambassador-suite",
+      "category": "Monolith",
+      "name": "Ambassador Suite",
+      "size": "150",
+      "sizeUnit": "m²",
+      "floorRange": "41-50",
+      "view": "Panoramic",
+      "bedrooms": "1",
+      "bathrooms": "2",
+      "maxOccupancy": "4 guests",
+      "bedType": "King-size bed + Queen sofa bed",
+      "price": "€3,500",
+      "priceUnit": "per night",
+      "description": "Diplomatic luxury with a private study and formal dining for six.",
+      "image": "/images/ambassador.jpg",
+      "features": [
+        "Private study",
+        "Formal dining for 6",
+        "Guest powder room",
+        "Private bar"
+      ]
+    },
+    {
+      "id": "diplomat-suite",
+      "slug": "diplomat-suite",
+      "category": "Monolith",
+      "name": "Diplomat Suite",
+      "size": "180",
+      "sizeUnit": "m²",
+      "floorRange": "51-60",
+      "view": "360°",
+      "bedrooms": "2",
+      "bathrooms": "2.5",
+      "maxOccupancy": "4 guests",
+      "bedType": "2 King-size beds",
+      "price": "€4,200",
+      "priceUnit": "per night",
+      "description": "Designed for delegations with two master bedrooms and a central meeting area.",
+      "image": "/images/diplomat.webp",
+      "features": [
+        "Two master bedrooms",
+        "Central meeting area",
+        "Secure communications room",
+        "Private elevator access"
+      ]
+    },
+    {
+      "id": "royal-suite",
+      "slug": "royal-suite",
+      "category": "Royal",
+      "name": "Royal Suite",
+      "size": "220",
+      "sizeUnit": "m²",
+      "floorRange": "61-65",
+      "view": "360°",
+      "bedrooms": "2",
+      "bathrooms": "3",
+      "maxOccupancy": "6 guests",
+      "bedType": "2 King-size beds + 1 Queen",
+      "price": "€5,500",
+      "priceUnit": "per night",
+      "description": "Regal elegance with hand-painted ceilings and a private art collection.",
+      "image": "/images/royal.webp",
+      "features": [
+        "Hand-painted ceilings",
+        "Private art collection",
+        "Marble fireplace",
+        "Grand piano"
+      ]
+    },
+    {
+      "id": "imperial-suite",
+      "slug": "imperial-suite",
+      "category": "Royal",
+      "name": "Imperial Suite",
+      "size": "260",
+      "sizeUnit": "m²",
+      "floorRange": "66-70",
+      "view": "360°",
+      "bedrooms": "2",
+      "bathrooms": "3",
+      "maxOccupancy": "6 guests",
+      "bedType": "2 King-size beds + 2 Twin",
+      "price": "€6,800",
+      "priceUnit": "per night",
+      "description": "The pinnacle of classic luxury with original artworks and antique furnishings.",
+      "image": "/images/imperial.jpg",
+      "features": [
+        "Original artworks",
+        "Antique furnishings",
+        "Private library",
+        "Wine cellar"
+      ]
+    },
+    {
+      "id": "presidential-residence",
+      "slug": "presidential-residence",
+      "category": "Presidential",
+      "name": "Presidential Residence",
+      "size": "350",
+      "sizeUnit": "m²",
+      "floorRange": "71-75",
+      "view": "360°",
+      "bedrooms": "3",
+      "bathrooms": "4",
+      "maxOccupancy": "8 guests",
+      "bedType": "3 King-size beds",
+      "price": "Upon Request",
+      "priceUnit": "custom quote",
+      "description": "An entire floor dedicated to the ultimate expression of corporate hospitality.",
+      "image": "/images/presidental1.jpg",
+      "features": [
+        "Private boardroom (12 seats)",
+        "Staff entry",
+        "Private elevator",
+        "Media room"
+      ]
+    },
+    {
+      "id": "ambassadorial-residence",
+      "slug": "ambassadorial-residence",
+      "category": "Presidential",
+      "name": "Ambassadorial Residence",
+      "size": "400",
+      "sizeUnit": "m²",
+      "floorRange": "76-80",
+      "view": "360°",
+      "bedrooms": "3",
+      "bathrooms": "4.5",
+      "maxOccupancy": "8 guests",
+      "bedType": "3 King-size beds + 1 Queen",
+      "price": "Upon Request",
+      "priceUnit": "custom quote",
+      "description": "Diplomatic luxury with secure meeting facilities and translation services.",
+      "image": "/images/ambassadorial.jpg",
+      "features": [
+        "Secure meeting room",
+        "Translation booth",
+        "Private dining for 20",
+        "VIP security suite"
+      ]
+    },
+    {
+      "id": "penthouse-east",
+      "slug": "penthouse-east",
+      "category": "Penthouse",
+      "name": "Penthouse East",
+      "size": "500",
+      "sizeUnit": "m²",
+      "floorRange": "81-85",
+      "view": "360°",
+      "bedrooms": "4",
+      "bathrooms": "5",
+      "maxOccupancy": "10 guests",
+      "bedType": "4 King-size beds",
+      "price": "Upon Request",
+      "priceUnit": "custom quote",
+      "description": "The eastern wing of the penthouse level with sunrise views and private terrace.",
+      "image": "/images/penthouseeast.jpg",
+      "features": [
+        "Private terrace (100m²)",
+        "Infinity pool",
+        "Home theater",
+        "Wine tasting room"
+      ]
+    },
+    {
+      "id": "penthouse-west",
+      "slug": "penthouse-west",
+      "category": "Penthouse",
+      "name": "Penthouse West",
+      "size": "500",
+      "sizeUnit": "m²",
+      "floorRange": "81-85",
+      "view": "360°",
+      "bedrooms": "4",
+      "bathrooms": "5",
+      "maxOccupancy": "10 guests",
+      "bedType": "4 King-size beds",
+      "price": "Upon Request",
+      "priceUnit": "custom quote",
+      "description": "The western wing with sunset views and expansive entertainment spaces.",
+      "image": "/images/penthousewest.avif",
+      "features": [
+        "Sunset terrace",
+        "Private gym",
+        "Spa with hammam",
+        "Chef's kitchen"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "name": "Executive",
+      "description": "Refined spaces for the discerning professional",
+      "range": "65-95 m²"
+    },
+    {
+      "name": "Monolith",
+      "description": "Signature suites with distinctive character",
+      "range": "120-180 m²"
+    },
+    {
+      "name": "Royal",
+      "description": "Regal elegance for important occasions",
+      "range": "220-260 m²"
+    },
+    {
+      "name": "Presidential",
+      "description": "Ultimate corporate hospitality",
+      "range": "350-400 m²"
+    },
+    {
+      "name": "Penthouse",
+      "description": "The pinnacle of luxury living",
+      "range": "500 m²"
+    }
+  ],
+  "amenities": [
+    {
+      "icon": "bed",
+      "title": "Handcrafted Beds",
+      "description": "Custom-made Vispring mattresses with 1000+ pocket springs"
+    },
+    {
+      "icon": "bath",
+      "title": "Italian Marble",
+      "description": "Carrara marble bathrooms with heated floors"
+    },
+    {
+      "icon": "wifi",
+      "title": "10Gbps Fiber",
+      "description": "Dedicated secure connection for every suite"
+    },
+    {
+      "icon": "coffee",
+      "title": "Nespresso Vertuo",
+      "description": "Premium coffee machines in every residence"
+    },
+    
+    {
+      "icon": "lock",
+      "title": "Biometric Entry",
+      "description": "Fingerprint and facial recognition"
+    },
+    {
+      "icon": "wine",
+      "title": "Private Bar",
+      "description": "Curated selection of spirits"
+    },
+    {
+      "icon": "tv",
+      "title": "4K OLED TVs",
+      "description": "65\" screens in every room"
+    },
+    {
+      "icon": "phone",
+      "title": "24/7 Butler",
+      "description": "Personal butler service"
+    }
+  ]
+}

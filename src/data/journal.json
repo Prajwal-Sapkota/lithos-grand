@@ -1,0 +1,98 @@
+{
+  "hero": {
+    "title": "THE JOURNAL",
+    "subtitle": "Stories from the world of LITHOS GRAND. Architecture, culture, and the art of silence.",
+    "image": "/images/journal.jpg"
+  },
+  "intro": {
+    "title": "Stories That Define Us",
+    "description": "From the origins of our limestone monoliths to the voices that shape our philosophy. The Journal captures the essence of LITHOS through words, images, and ideas.",
+    "quote": "Every building has a story. Every silence speaks volumes.",
+    "stats": {
+      "articles": "24",
+      "authors": "12",
+      "years": "5",
+      "cities": "8"
+    }
+  },
+  "featured": {
+    "id": "featured-1",
+    "title": "A Century of Limestone",
+    "excerpt": "From Auguste Perret's original vision to Zaha Hadid's final masterpiece. How one material defined a century of luxury.",
+    "author": "Eleanor Vance",
+    "authorTitle": "Architecture Critic",
+    "date": "March 15, 2026",
+    "readTime": "8 min read",
+    "category": "Architecture",
+    "image": "/images/featured.jpg",
+    "slug": "a-century-of-limestone"
+  },
+  "stories": [
+    {
+      "id": "story-1",
+      "title": "The Silence of Stone",
+      "excerpt": "Why acoustic isolation is the ultimate luxury in modern hospitality.",
+      "author": "James Chen",
+      "date": "March 10, 2026",
+      "readTime": "5 min read",
+      "category": "Design",
+      "image": "/images/story1.webp",
+      "slug": "silence-of-stone"
+    },
+    {
+      "id": "story-2",
+      "title": "A Conversation with Tadao Ando",
+      "excerpt": "The legendary architect reflects on light, concrete, and his only hotel project.",
+      "author": "Sophia Laurent",
+      "date": "March 5, 2026",
+      "readTime": "12 min read",
+      "category": "Interviews",
+      "image": "/images/story2.webp",
+      "slug": "tadao-ando-interview"
+    },
+    {
+      "id": "story-3",
+      "title": "The Art of the Boardroom",
+      "excerpt": "How meeting spaces shape the decisions that shape the world.",
+      "author": "Marcus Webb",
+      "date": "February 28, 2026",
+      "readTime": "6 min read",
+      "category": "Business",
+      "image": "/images/story3.webp",
+      "slug": "art-of-boardroom"
+    },
+    {
+      "id": "story-4",
+      "title": "Fire, Stone, and Flavor",
+      "excerpt": "Behind the scenes at THE FORGE, where ancient techniques meet modern palates.",
+      "author": "Elena Marchetti",
+      "date": "February 20, 2026",
+      "readTime": "7 min read",
+      "category": "Culinary",
+      "image": "/images/story4.jpg",
+      "slug": "fire-stone-flavor"
+    },
+    {
+      "id": "story-5",
+      "title": "The Vault: A Wine Odyssey",
+      "excerpt": "Exploring the 12,000-bottle collection hidden beneath our limestone floors.",
+      "author": "Jean-Luc Moreau",
+      "date": "February 12, 2026",
+      "readTime": "9 min read",
+      "category": "Culinary",
+      "image": "/images/story5.jpg",
+      "slug": "vault-wine-odyssey"
+    },
+    {
+      "id": "story-6",
+      "title": "Wellness in the Sky",
+      "excerpt": "How the 47th floor became a sanctuary for mind and body.",
+      "author": "Dr. Aisha Khan",
+      "date": "February 5, 2026",
+      "readTime": "4 min read",
+      "category": "Wellness",
+      "image": "/images/story6.jpg",
+      "slug": "wellness-in-sky"
+    }
+  ]
+}
